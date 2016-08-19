@@ -5,7 +5,7 @@
 <!-- PLAIN_TEXT: #E1E2E7 -->
 <!-- COMMENTS: #45BB3E -->
 <!-- DOC_MARKUP: #22A055 -->
-<!-- DOC_MARKUP_KEYWORDS: #32CF72 -->
+<!-- DOC_KEYWORDS: #32CF72 -->
 <!-- STRINGS: #D3232E -->
 <!-- CHARACTERS: #746DB0 -->
 <!-- NUMBERS: #149C92 -->
@@ -50,33 +50,26 @@
         <dict>
             <key>settings</key>
             <dict>
-                <!-- Plain Text -->
                 <key>foreground</key>
                 <string>#E1E2E7</string>
 
-                <!-- Background -->
                 <key>background</key>
                 <string>#1F2029</string>
 
-                <!-- Invisibles -->
                 <key>invisibles</key>
                 <string>#7F7F7F</string>
 
-                <!-- Cursor -->
                 <key>caret</key>
                 <string>#FFFFFF</string>
 
-                <!-- Current Line -->
                 <key>lineHighlight</key>
                 <string>#282938</string>
 
-                <!-- Matched Bracket Colors -->
                 <key>bracketContentsForeground</key>
                 <string>#E1E2E7</string>
                 <key>bracketContentsOptions</key>
                 <string>stippled_underline</string>
 
-                <!-- Bracket Colors -->
                 <key>bracketsForeground</key>
                 <string>#E1E2E7</string>
                 <!-- <key>bracketsBackground</key>
@@ -147,6 +140,82 @@
             <dict>
                 <key>foreground</key>
                 <string>#45BB3E</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Comment Markup</string>
+            <key>scope</key>
+            <string>comment.block.documentation meta.documentation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#22A055</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Comment Markup Keyword</string>
+            <key>scope</key>
+            <string>comment.block.documentation keyword.other.documentation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#32CF72</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- PREPROCESSOR -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <dict>
+            <key>name</key>
+            <string>Preprocessor</string>
+            <key>scope</key>
+            <string>meta.preprocessor</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C77A4B</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Preprocessor Keywords</string>
+            <key>scope</key>
+            <string>meta.preprocessor keyword.control</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C77A4B</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Decorator</string>
+            <key>scope</key>
+            <string>meta.statement.decorator</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C77A4B</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Decorator Keywords</string>
+            <key>scope</key>
+            <string>keyword.other.decorator</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C77A4B</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -245,7 +314,6 @@
 <!-- KEYWORDS -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- Keywords -->
         <dict>
             <key>name</key>
             <string>Keyword</string>
@@ -255,6 +323,18 @@
             <dict>
                 <key>foreground</key>
                 <string>#D7008F</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Operator Keywords</string>
+            <key>scope</key>
+            <string>keyword.operator</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E1E2E7</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -498,12 +578,39 @@
 <!-- JSON -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- JSON Strings -->
         <dict>
             <key>name</key>
-            <string>JSON String</string>
+            <string>JSON Root Keys</string>
             <key>scope</key>
             <string>meta.structure.dictionary.json string.quoted.double.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D3232E</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>JSON String Values</string>
+            <key>scope</key>
+            <string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#746DB0</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- PYTHON -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <dict>
+            <key>name</key>
+            <string>Python Single Quoted String</string>
+            <key>scope</key>
+            <string>string.quoted.single.block.python</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -524,7 +631,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#24B2AA</string>
+                <string>#E1E2E7</string>
             </dict>
         </dict>
 
@@ -537,9 +644,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#BF353F</string>
-                <key>background</key>
-                <string>#260B0D</string>
+                <string>#D3232E</string>
             </dict>
         </dict>
 
@@ -552,9 +657,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#24B2AA</string>
-                <key>background</key>
-                <string>#082625</string>
+                <string>#45BB3E</string>
             </dict>
         </dict>
 
@@ -567,7 +670,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#A37ACC</string>
+                <string>#C77A4B</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -575,10 +678,10 @@
 <!-- FIND IN FILES -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- Find In Files Line Number Match -->
+        <!-- Find In Files Line Number -->
         <dict>
             <key>scope</key>
-            <string>constant.numeric.line-number.find-in-files - match</string>
+            <string>constant.numeric.line-number.find-in-files</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -586,14 +689,25 @@
             </dict>
         </dict>
 
-        <!-- Find In Files -->
+        <!-- Find In Files Line Number Match -->
+        <dict>
+            <key>scope</key>
+            <string>constant.numeric.line-number.match.find-in-files</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D7008F</string>
+            </dict>
+        </dict>
+
+        <!-- Find In Files Filename -->
         <dict>
             <key>scope</key>
             <string>entity.name.filename.find-in-files</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#55747C</string>
+                <string>#45BB3E</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
