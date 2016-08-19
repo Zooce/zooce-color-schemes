@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<!-- PLAIN_TEXT: #E1E2E7 -->
+<!-- COMMENTS: #45BB3E -->
+<!-- DOC_MARKUP: #22A055 -->
+<!-- DOC_MARKUP_KEYWORDS: #32CF72 -->
+<!-- STRINGS: #D3232E -->
+<!-- CHARACTERS: #746DB0 -->
+<!-- NUMBERS: #149C92 -->
+<!-- KEYWORDS: #D7008F -->
+<!-- PREPROCESSOR: #C77A4B -->
+<!-- URLS: #5124E3 -->
+<!-- ATTRIBUTES: #55747C -->
+
+<!-- PROJECT_CLASS_NAMES: #1DA9A2 -->
+<!-- PROJECT_FUNCTION_NAMES: #1DA9A2 -->
+<!-- PROJECT_CONSTANTS: #1DA9A2 -->
+<!-- PROJECT_TYPES: #1DA9A2 -->
+<!-- PROJECT_VARIABLES_AND_GLOBALS: #1DA9A2 -->
+
+<!-- USER_CLASS_NAMES: #25908D -->
+<!-- USER_FUNCTION_NAMES: #25908D -->
+<!-- USER_CONSTANTS: #25908D -->
+<!-- USER_TYPES: #25908D -->
+<!-- USER_VARIABLES_AND_GLOBALS: #25908D -->
+
+<!-- BACKGROUND: #1F2029 -->
+<!-- CURRENT_LINE: #282938 -->
+<!-- SELECTION: #35404E -->
+<!-- CURSOR: #FFFFFF -->
+<!-- INVISIBLES: #7F7F7F -->
+
+<!-- GUTTER_FOREGROUND: #929292 -->
+<!-- GUIDE: #40424B -->
+
+<dict>
+    <key>author</key>
+    <string>Zooce</string>
+    <key>name</key>
+    <string>Zooce</string>
+    <key>settings</key>
+    <array>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- GLOBAL -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <dict>
+            <key>settings</key>
+            <dict>
+                <!-- Plain Text -->
+                <key>foreground</key>
+                <string>@PLAIN_TEXT</string>
+
+                <!-- Background -->
+                <key>background</key>
+                <string>@BACKGROUND</string>
+
+                <!-- Invisibles -->
+                <key>invisibles</key>
+                <string>@INVISIBLES</string>
+
+                <!-- Cursor -->
+                <key>caret</key>
+                <string>@CURSOR</string>
+
+                <!-- Current Line -->
+                <key>lineHighlight</key>
+                <string>@CURRENT_LINE</string>
+
+                <!-- Matched Bracket Colors -->
+                <key>bracketContentsForeground</key>
+                <string>@PLAIN_TEXT</string>
+                <key>bracketContentsOptions</key>
+                <string>stippled_underline</string>
+
+                <!-- Bracket Colors -->
+                <key>bracketsForeground</key>
+                <string>@PLAIN_TEXT</string>
+                <!-- <key>bracketsBackground</key>
+                <string>@PLAIN_TEXT</string> -->
+                <key>bracketsOptions</key>
+                <string>stippled_underline</string>
+
+                <!-- Tag Colors -->
+                <key>tagsForeground</key>
+                <string>@PLAIN_TEXT</string>
+                <key>tagsOptions</key>
+                <string>stippled_underline</string>
+
+                <!-- Find Colors -->
+                <key>findHighlight</key>
+                <string>@CHARACTERS</string>
+                <key>findHighlightForeground</key>
+                <string>@PLAIN_TEXT</string>
+
+                <!-- Gutter Colors -->
+                <key>gutter</key>
+                <string>@BACKGROUND</string>
+                <key>gutterForeground</key>
+                <string>@GUTTER_FOREGROUND</string>
+
+                <!-- Selection Colors -->
+                <key>selection</key>
+                <string>@SELECTION</string>
+                <!-- <key>selectionBackground</key>
+                <string>#000000</string> -->
+                <!-- <key>selectionBorder</key>
+                <string>@PREPROCESSOR</string> -->
+                <!-- <key>inactiveSelection</key>
+                <string>#000000</string> -->
+
+                <!-- Guide Colors -->
+                <key>guide</key>
+                <string>@GUIDE</string>
+                <key>activeGuide</key>
+                <string>@CHARACTERS</string>
+                <key>stackGuide</key>
+                <string>@GUIDE</string>
+
+                <!-- Highlight Colors -->
+                <!-- <key>highlight</key>
+                <string>@SELECTION</string>
+                <key>highlightForground</key>
+                <string>@SELECTION</string> -->
+
+                <!-- Shadow Colors -->
+                <!-- <key>shadow</key>
+                <string>#000000</string>
+                <key>shadowWidth</key>
+                <string>10</string> -->
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- COMMENTS -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <dict>
+            <key>name</key>
+            <string>Comment</string>
+            <key>scope</key>
+            <string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@COMMENTS</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- STRINGS AND CHARACTERS -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <dict>
+            <key>name</key>
+            <string>String</string>
+            <key>scope</key>
+            <string>string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@STRINGS</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Character</string>
+            <key>scope</key>
+            <string>string.quoted.single</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@CHARACTERS</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- NUMBERS -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>constant.numeric</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@NUMBERS</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- CONSTANTS -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Built-In Constants -->
+        <dict>
+            <key>name</key>
+            <string>Built-in constant</string>
+            <key>scope</key>
+            <string>constant.language</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PROJECT_CONSTANTS</string>
+            </dict>
+        </dict>
+
+        <!-- User-Defined Constants -->
+        <dict>
+            <key>name</key>
+            <string>User-defined constant</string>
+            <key>scope</key>
+            <string>constant.character, constant.other</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PROJECT_CONSTANTS</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- VARIABLES -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Variable Colors -->
+        <dict>
+            <key>name</key>
+            <string>Variable</string>
+            <key>scope</key>
+            <string>variable</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PROJECT_VARIABLES_AND_GLOBALS</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- KEYWORDS -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Keywords -->
+        <dict>
+            <key>name</key>
+            <string>Keyword</string>
+            <key>scope</key>
+            <string>keyword</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@KEYWORDS</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- STORAGE -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Storage -->
+        <dict>
+            <key>name</key>
+            <string>Storage</string>
+            <key>scope</key>
+            <string>storage</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PROJECT_TYPES</string>
+            </dict>
+        </dict>
+
+        <!-- Storage Types -->
+        <dict>
+            <key>name</key>
+            <string>Storage type</string>
+            <key>scope</key>
+            <string>storage.type</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PROJECT_TYPES</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- NAMESPACE -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <dict>
+            <key>name</key>
+            <string>Namespace</string>
+            <key>scope</key>
+            <string>entity.name.namespace, entity.name.tag.namespace, entity.other.attribute-name.namespace</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>@PROJECT_TYPES</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- CLASSES -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Class Names -->
+        <dict>
+            <key>name</key>
+            <string>Class name</string>
+            <key>scope</key>
+            <string>entity.name.class</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PROJECT_CLASS_NAMES</string>
+            </dict>
+        </dict>
+
+        <!-- Inherited Classes -->
+        <dict>
+            <key>name</key>
+            <string>Inherited class</string>
+            <key>scope</key>
+            <string>entity.other.inherited-class</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>@PROJECT_CLASS_NAMES</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- FUNCTIONS -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Function Names -->
+        <dict>
+            <key>name</key>
+            <string>Function name</string>
+            <key>scope</key>
+            <string>entity.name.function, variable.function</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PROJECT_FUNCTION_NAMES</string>
+            </dict>
+        </dict>
+
+        <!-- Function Arguments -->
+        <dict>
+            <key>name</key>
+            <string>Function argument</string>
+            <key>scope</key>
+            <string>variable.parameter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PLAIN_TEXT</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- TAGS -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Tag Names -->
+        <dict>
+            <key>name</key>
+            <string>Tag name</string>
+            <key>scope</key>
+            <string>entity.name.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@KEYWORDS</string>
+            </dict>
+        </dict>
+
+        <!-- Tag Attributes -->
+        <dict>
+            <key>name</key>
+            <string>Tag attribute</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@ATTRIBUTES</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- LIBRARY -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Library Functions -->
+        <dict>
+            <key>name</key>
+            <string>Library function</string>
+            <key>scope</key>
+            <string>support.function</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>@PROJECT_FUNCTION_NAMES</string>
+            </dict>
+        </dict>
+
+        <!-- Library Constants -->
+        <dict>
+            <key>name</key>
+            <string>Library constant</string>
+            <key>scope</key>
+            <string>support.constant</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>@PROJECT_CONSTANTS</string>
+            </dict>
+        </dict>
+
+        <!-- Library Classes/Types -->
+        <dict>
+            <key>name</key>
+            <string>Library class/type</string>
+            <key>scope</key>
+            <string>support.type, support.class</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>@PROJECT_CLASS_NAMES</string>
+            </dict>
+        </dict>
+
+        <!-- Library Variables -->
+        <dict>
+            <key>name</key>
+            <string>Library variable</string>
+            <key>scope</key>
+            <string>support.other.variable</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PROJECT_VARIABLES_AND_GLOBALS</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- INVALID -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Invalid -->
+        <dict>
+            <key>name</key>
+            <string>Invalid</string>
+            <key>scope</key>
+            <string>invalid</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#24B2AA</string>
+                <key>background</key>
+                <string>#F92672</string>
+            </dict>
+        </dict>
+
+        <!-- Invalid Depricated -->
+        <dict>
+            <key>name</key>
+            <string>Invalid deprecated</string>
+            <key>scope</key>
+            <string>invalid.deprecated</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#24B2AA</string>
+                <key>background</key>
+                <string>#A37ACC</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- JSON -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- JSON Strings -->
+        <dict>
+            <key>name</key>
+            <string>JSON String</string>
+            <key>scope</key>
+            <string>meta.structure.dictionary.json string.quoted.double.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@STRINGS</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- DIFF -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Diff Headers -->
+        <dict>
+            <key>name</key>
+            <string>diff.header</string>
+            <key>scope</key>
+            <string>meta.diff, meta.diff.header</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#24B2AA</string>
+            </dict>
+        </dict>
+
+        <!-- Diff Deleted -->
+        <dict>
+            <key>name</key>
+            <string>diff.deleted</string>
+            <key>scope</key>
+            <string>markup.deleted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#BF353F</string>
+                <key>background</key>
+                <string>#260B0D</string>
+            </dict>
+        </dict>
+
+        <!-- Diff Inserted -->
+        <dict>
+            <key>name</key>
+            <string>diff.inserted</string>
+            <key>scope</key>
+            <string>markup.inserted</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#24B2AA</string>
+                <key>background</key>
+                <string>#082625</string>
+            </dict>
+        </dict>
+
+        <!-- Diff Changed -->
+        <dict>
+            <key>name</key>
+            <string>diff.changed</string>
+            <key>scope</key>
+            <string>markup.changed</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A37ACC</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- FIND IN FILES -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Find In Files Line Number Match -->
+        <dict>
+            <key>scope</key>
+            <string>constant.numeric.line-number.find-in-files - match</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PLAIN_TEXT</string>
+            </dict>
+        </dict>
+
+        <!-- Find In Files -->
+        <dict>
+            <key>scope</key>
+            <string>entity.name.filename.find-in-files</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@ATTRIBUTES</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- GIT GUTTER -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- GitGutter Deleted -->
+        <dict>
+            <key>name</key>
+            <string>GitGutter deleted</string>
+            <key>scope</key>
+            <string>markup.deleted.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F92672</string>
+            </dict>
+        </dict>
+
+        <!-- GitGutter Inserted -->
+        <dict>
+            <key>name</key>
+            <string>GitGutter inserted</string>
+            <key>scope</key>
+            <string>markup.inserted.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A6E22E</string>
+            </dict>
+        </dict>
+
+        <!-- GitGutter Changed -->
+        <dict>
+            <key>name</key>
+            <string>GitGutter changed</string>
+            <key>scope</key>
+            <string>markup.changed.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#967EFB</string>
+            </dict>
+        </dict>
+
+        <!-- GitGutter Ignored -->
+        <dict>
+            <key>name</key>
+            <string>GitGutter ignored</string>
+            <key>scope</key>
+            <string>markup.ignored.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#565656</string>
+            </dict>
+        </dict>
+
+        <!-- GitGutter Untracked -->
+        <dict>
+            <key>name</key>
+            <string>GitGutter untracked</string>
+            <key>scope</key>
+            <string>markup.untracked.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#565656</string>
+            </dict>
+        </dict>
+    </array>
+
+    <!-- UUID -->
+    <key>uuid</key>
+    <string>0988249c-bc66-452b-941c-5fe0f3615bed</string>
+</dict>
+</plist>

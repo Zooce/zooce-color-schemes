@@ -21,6 +21,7 @@ namespace Zooce {
     typedef struct PersonalInfo {
         int age;
         std::string name;
+        char tag;
     } PersonalInfo;
 
     enum class EmployeeType {
@@ -62,6 +63,7 @@ namespace Zooce {
         mInfo = new PersonalInfo;
         mInfo->age = aPInfo.age;
         mInfo->name = aPInfo.name;
+        mInfo->tag = 'C';
         mEType = aType;
     }
 
