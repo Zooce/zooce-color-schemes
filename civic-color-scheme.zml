@@ -2,33 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 
-<!-- PLAIN_TEXT: #E1E2E7 -->
-<!-- COMMENTS: #45BB3E -->
+<!-- PLAIN_TEXT: #F8F9FF -->
+<!-- COMMENTS: #5EFF54 -->
 <!-- DOC_MARKUP: #22A055 -->
 <!-- DOC_KEYWORDS: #32CF72 -->
-<!-- STRINGS: #D3232E -->
-<!-- CHARACTERS: #746DB0 -->
-<!-- NUMBERS: #149C92 -->
-<!-- KEYWORDS: #D7008F -->
-<!-- PREPROCESSOR: #C77A4B -->
+<!-- STRINGS: #FF1F3F -->
+<!-- CHARACTERS: #A89EFF -->
+<!-- NUMBERS: #18B8AC -->
+<!-- KEYWORDS: #FF00AA -->
+<!-- PREPROCESSOR: #FF9C60 -->
 <!-- URLS: #5124E3 -->
 <!-- ATTRIBUTES: #55747C -->
 
-<!-- PROJECT_CLASS_NAMES: #1DA9A2 -->
-<!-- PROJECT_FUNCTION_NAMES: #1DA9A2 -->
-<!-- PROJECT_CONSTANTS: #1DA9A2 -->
-<!-- PROJECT_TYPES: #1DA9A2 -->
-<!-- PROJECT_VARIABLES_AND_GLOBALS: #1DA9A2 -->
+<!-- PROJECT_CLASS_NAMES: #1EABA4 -->
+<!-- PROJECT_FUNCTION_NAMES: #1EABA4 -->
+<!-- PROJECT_CONSTANTS: #1EABA4 -->
+<!-- PROJECT_TYPES: #1EABA4 -->
+<!-- PROJECT_VARIABLES_AND_GLOBALS: #1EABA4 -->
 
-<!-- USER_CLASS_NAMES: #25908D -->
-<!-- USER_FUNCTION_NAMES: #25908D -->
-<!-- USER_CONSTANTS: #25908D -->
-<!-- USER_TYPES: #25908D -->
-<!-- USER_VARIABLES_AND_GLOBALS: #25908D -->
+<!-- USER_CLASS_NAMES: #30BDB9 -->
+<!-- USER_FUNCTION_NAMES: #30BDB9 -->
+<!-- USER_CONSTANTS: #30BDB9 -->
+<!-- USER_TYPES: #30BDB9 -->
+<!-- USER_VARIABLES_AND_GLOBALS: #30BDB9 -->
 
 <!-- BACKGROUND: #1F2029 -->
-<!-- CURRENT_LINE: #282938 -->
-<!-- SELECTION: #35404E -->
+<!-- CURRENT_LINE: #545675 -->
+<!-- SELECTION: #61758F -->
 <!-- CURSOR: #FFFFFF -->
 <!-- INVISIBLES: #7F7F7F -->
 
@@ -297,7 +297,6 @@
 <!-- VARIABLES -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- Variable Colors -->
         <dict>
             <key>name</key>
             <string>Variable</string>
@@ -307,6 +306,17 @@
             <dict>
                 <key>foreground</key>
                 <string>@PROJECT_VARIABLES_AND_GLOBALS</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Member Variable</string>
+            <key>scope</key>
+            <string>variable.other.readwrite.member</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@PLAIN_TEXT</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -342,7 +352,6 @@
 <!-- STORAGE -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- Storage -->
         <dict>
             <key>name</key>
             <string>Storage</string>
@@ -354,8 +363,6 @@
                 <string>@PROJECT_TYPES</string>
             </dict>
         </dict>
-
-        <!-- Storage Types -->
         <dict>
             <key>name</key>
             <string>Storage type</string>
@@ -364,7 +371,18 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>@PROJECT_TYPES</string>
+                <string>@KEYWORDS</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Storage type</string>
+            <key>scope</key>
+            <string>storage.modifier</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>@KEYWORDS</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->

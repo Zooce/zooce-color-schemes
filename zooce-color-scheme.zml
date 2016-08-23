@@ -2,38 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 
-<!-- PLAIN_TEXT: #F8F9FF -->
-<!-- COMMENTS: #5EFF54 -->
-<!-- DOC_MARKUP: #22A055 -->
-<!-- DOC_KEYWORDS: #32CF72 -->
-<!-- STRINGS: #FF1F3F -->
-<!-- CHARACTERS: #A89EFF -->
-<!-- NUMBERS: #18B8AC -->
-<!-- KEYWORDS: #FF00AA -->
-<!-- PREPROCESSOR: #FF9C60 -->
-<!-- URLS: #5124E3 -->
-<!-- ATTRIBUTES: #55747C -->
+<!-- WHITE: #F2F2F2 -->
 
-<!-- PROJECT_CLASS_NAMES: #1EABA4 -->
-<!-- PROJECT_FUNCTION_NAMES: #1EABA4 -->
-<!-- PROJECT_CONSTANTS: #1EABA4 -->
-<!-- PROJECT_TYPES: #1EABA4 -->
-<!-- PROJECT_VARIABLES_AND_GLOBALS: #1EABA4 -->
+<!-- LIGHT_GRAY:     #8A8A8A -->
+<!-- DARK_GRAY:      #262626 -->
+<!-- VERY_DARK_GRAY: #616161 -->
 
-<!-- USER_CLASS_NAMES: #30BDB9 -->
-<!-- USER_FUNCTION_NAMES: #30BDB9 -->
-<!-- USER_CONSTANTS: #30BDB9 -->
-<!-- USER_TYPES: #30BDB9 -->
-<!-- USER_VARIABLES_AND_GLOBALS: #30BDB9 -->
+<!-- LIGHT_BLACK:    #191919 -->
+<!-- DARK_BLACK:     #000000 -->
 
-<!-- BACKGROUND: #1F2029 -->
-<!-- CURRENT_LINE: #545675 -->
-<!-- SELECTION: #61758F -->
-<!-- CURSOR: #FFFFFF -->
-<!-- INVISIBLES: #7F7F7F -->
+<!-- LIGHT_RED: #BF353F -->
+<!-- DARK_RED:  #260B0D -->
 
-<!-- GUTTER_FOREGROUND: #929292 -->
-<!-- GUIDE: #40424B -->
+<!-- YELLOW: #F2F117 -->
+<!-- BLUE:   #72A1E5 -->
+<!-- PURPLE: #A37ACC -->
+
+<!-- VERY_LIGHT_GREEN: #85DB18 -->
+<!-- LIGHT_GREEN:      #24B2AA -->
+<!-- DARK_GREEN:       #082625 -->
 
 <dict>
     <key>author</key>
@@ -42,93 +29,81 @@
     <string>Zooce</string>
     <key>settings</key>
     <array>
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
-<!-- GLOBAL -->
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
+        <!-- Global Colors -->
         <dict>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F9FF</string>
+                <string>@WHITE</string>
 
                 <key>background</key>
-                <string>#1F2029</string>
+                <string>@LIGHT_BLACK</string>
 
                 <key>invisibles</key>
-                <string>#7F7F7F</string>
+                <string>@LIGHT_GRAY</string>
 
                 <key>caret</key>
-                <string>#FFFFFF</string>
+                <string>@WHITE</string>
 
                 <key>lineHighlight</key>
-                <string>#545675</string>
+                <string>@DARK_BLACK</string>
 
+                <!-- Bracket Colors -->
                 <key>bracketContentsForeground</key>
-                <string>#F8F9FF</string>
+                <string>@VERY_LIGHT_GREEN</string>
                 <key>bracketContentsOptions</key>
                 <string>stippled_underline</string>
-
                 <key>bracketsForeground</key>
-                <string>#F8F9FF</string>
-                <!-- <key>bracketsBackground</key>
-                <string>#F8F9FF</string> -->
+                <string>@VERY_LIGHT_GREEN</string>
                 <key>bracketsOptions</key>
                 <string>stippled_underline</string>
 
                 <!-- Tag Colors -->
                 <key>tagsForeground</key>
-                <string>#F8F9FF</string>
+                <string>@VERY_LIGHT_GREEN</string>
                 <key>tagsOptions</key>
                 <string>stippled_underline</string>
 
                 <!-- Find Colors -->
                 <key>findHighlight</key>
-                <string>#A89EFF</string>
+                <string>#FFE792</string>
                 <key>findHighlightForeground</key>
-                <string>#F8F9FF</string>
+                <string>@DARK_BLACK</string>
 
                 <!-- Gutter Colors -->
                 <key>gutter</key>
-                <string>#1F2029</string>
+                <string>@DARK_BLACK</string>
                 <key>gutterForeground</key>
-                <string>#929292</string>
+                <string>@VERY_DARK_GRAY</string>
 
                 <!-- Selection Colors -->
                 <key>selection</key>
-                <string>#61758F</string>
-                <!-- <key>selectionBackground</key>
-                <string>#000000</string> -->
-                <!-- <key>selectionBorder</key>
-                <string>#FF9C60</string> -->
-                <!-- <key>inactiveSelection</key>
-                <string>#000000</string> -->
+                <string>@LIGHT_RED</string>
+                <key>selectionBackground</key>
+                <string>@DARK_BLACK</string>
+                <key>selectionBorder</key>
+                <string>#222218</string>
 
                 <!-- Guide Colors -->
                 <key>guide</key>
-                <string>#40424B</string>
+                <string>#222218</string>
                 <key>activeGuide</key>
-                <string>#A89EFF</string>
+                <string>@LIGHT_RED</string>
                 <key>stackGuide</key>
-                <string>#40424B</string>
+                <string>@VERY_DARK_GRAY</string>
 
                 <!-- Highlight Colors -->
                 <!-- <key>highlight</key>
-                <string>#61758F</string>
+                <string>@DARK_BLACK</string>
                 <key>highlightForground</key>
-                <string>#61758F</string> -->
-
-                <!-- Shadow Colors -->
-                <!-- <key>shadow</key>
-                <string>#000000</string>
-                <key>shadowWidth</key>
-                <string>10</string> -->
+                <string>#FFFFFF</string> -->
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- COMMENTS -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <dict>
@@ -139,88 +114,16 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#5EFF54</string>
+                <string>@LIGHT_GRAY</string>
+                <key>background</key>
+                <string>@DARK_GRAY</string>
             </dict>
         </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
 
-        <dict>
-            <key>name</key>
-            <string>Comment Markup</string>
-            <key>scope</key>
-            <string>comment.block.documentation meta.documentation</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#22A055</string>
-            </dict>
-        </dict>
+<!-- STRINGS -->
 
-        <dict>
-            <key>name</key>
-            <string>Comment Markup Keyword</string>
-            <key>scope</key>
-            <string>comment.block.documentation keyword.other.documentation</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#32CF72</string>
-            </dict>
-        </dict>
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
-<!-- PREPROCESSOR -->
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
-        <dict>
-            <key>name</key>
-            <string>Preprocessor</string>
-            <key>scope</key>
-            <string>meta.preprocessor</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF9C60</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>Preprocessor Keywords</string>
-            <key>scope</key>
-            <string>meta.preprocessor keyword.control</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF9C60</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>Decorator</string>
-            <key>scope</key>
-            <string>meta.statement.decorator</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF9C60</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>Decorator Keywords</string>
-            <key>scope</key>
-            <string>keyword.other.decorator</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF9C60</string>
-            </dict>
-        </dict>
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
-<!-- STRINGS AND CHARACTERS -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <dict>
@@ -231,24 +134,14 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF1F3F</string>
+                <string>@YELLOW</string>
             </dict>
         </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
 
-        <dict>
-            <key>name</key>
-            <string>Character</string>
-            <key>scope</key>
-            <string>string.quoted.single</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#A89EFF</string>
-            </dict>
-        </dict>
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
 <!-- NUMBERS -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <dict>
@@ -259,12 +152,14 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#18B8AC</string>
+                <string>@BLUE</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- CONSTANTS -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <!-- Built-In Constants -->
@@ -276,7 +171,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@BLUE</string>
             </dict>
         </dict>
 
@@ -289,15 +184,18 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@BLUE</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- VARIABLES -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <dict>
+        <!-- Variable Colors -->
+        <!-- <dict>
             <key>name</key>
             <string>Variable</string>
             <key>scope</key>
@@ -305,25 +203,17 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@WHITE</string>
             </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Member Variable</string>
-            <key>scope</key>
-            <string>variable.other.readwrite.member</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F8F9FF</string>
-            </dict>
-        </dict>
+        </dict> -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- KEYWORDS -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+        <!-- Keywords -->
         <dict>
             <key>name</key>
             <string>Keyword</string>
@@ -332,26 +222,17 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF00AA</string>
+                <string>@PURPLE</string>
             </dict>
         </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
 
-        <dict>
-            <key>name</key>
-            <string>Operator Keywords</string>
-            <key>scope</key>
-            <string>keyword.operator</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F8F9FF</string>
-            </dict>
-        </dict>
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
 <!-- STORAGE -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+        <!-- Storage -->
         <dict>
             <key>name</key>
             <string>Storage</string>
@@ -360,9 +241,11 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@BLUE</string>
             </dict>
         </dict>
+
+        <!-- Storage Types -->
         <dict>
             <key>name</key>
             <string>Storage type</string>
@@ -371,23 +254,14 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF00AA</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>Storage type</string>
-            <key>scope</key>
-            <string>storage.modifier</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF00AA</string>
+                <string>@BLUE</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- NAMESPACE -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <dict>
@@ -400,12 +274,14 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@BLUE</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- CLASSES -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <!-- Class Names -->
@@ -417,7 +293,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@LIGHT_GREEN</string>
             </dict>
         </dict>
 
@@ -432,12 +308,14 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@LIGHT_GREEN</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- FUNCTIONS -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <!-- Function Names -->
@@ -449,7 +327,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@LIGHT_GREEN</string>
             </dict>
         </dict>
 
@@ -462,12 +340,14 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F9FF</string>
+                <string>@WHITE</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- TAGS -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <!-- Tag Names -->
@@ -479,7 +359,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF00AA</string>
+                <string>@PURPLE</string>
             </dict>
         </dict>
 
@@ -492,12 +372,14 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#55747C</string>
+                <string>@LIGHT_GREEN</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- LIBRARY -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <!-- Library Functions -->
@@ -511,7 +393,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@LIGHT_GREEN</string>
             </dict>
         </dict>
 
@@ -526,7 +408,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@LIGHT_GREEN</string>
             </dict>
         </dict>
 
@@ -541,25 +423,25 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#1EABA4</string>
+                <string>@LIGHT_GREEN</string>
             </dict>
         </dict>
 
         <!-- Library Variables -->
-        <dict>
+        <!-- <dict>
             <key>name</key>
             <string>Library variable</string>
             <key>scope</key>
             <string>support.other.variable</string>
             <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#1EABA4</string>
             </dict>
-        </dict>
+        </dict> -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- INVALID -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <!-- Invalid -->
@@ -571,7 +453,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#24B2AA</string>
+                <string>@LIGHT_GREEN</string>
                 <key>background</key>
                 <string>#F92672</string>
             </dict>
@@ -586,58 +468,35 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#24B2AA</string>
+                <string>@LIGHT_GREEN</string>
                 <key>background</key>
-                <string>#A37ACC</string>
+                <string>@PURPLE</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- JSON -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+        <!-- JSON Strings -->
         <dict>
             <key>name</key>
-            <string>JSON Root Keys</string>
+            <string>JSON String</string>
             <key>scope</key>
             <string>meta.structure.dictionary.json string.quoted.double.json</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF1F3F</string>
+                <string>@YELLOW</string>
             </dict>
         </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
 
-        <dict>
-            <key>name</key>
-            <string>JSON String Values</string>
-            <key>scope</key>
-            <string>meta.structure.dictionary.value.json string.quoted.double.json</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#A89EFF</string>
-            </dict>
-        </dict>
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
-<!-- PYTHON -->
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
-        <dict>
-            <key>name</key>
-            <string>Python Single Quoted String</string>
-            <key>scope</key>
-            <string>string.quoted.single.block.python</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF1F3F</string>
-            </dict>
-        </dict>
-<!-- ####################################################################### -->
-<!-- ####################################################################### -->
 <!-- DIFF -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <!-- Diff Headers -->
@@ -649,7 +508,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F9FF</string>
+                <string>@LIGHT_GREEN</string>
             </dict>
         </dict>
 
@@ -662,7 +521,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF1F3F</string>
+                <string>@LIGHT_RED</string>
+                <key>background</key>
+                <string>@DARK_RED</string>
             </dict>
         </dict>
 
@@ -675,7 +536,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#5EFF54</string>
+                <string>@LIGHT_GREEN</string>
+                <key>background</key>
+                <string>@DARK_GREEN</string>
             </dict>
         </dict>
 
@@ -688,49 +551,42 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF9C60</string>
+                <string>@PURPLE</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- FIND IN FILES -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- Find In Files Line Number -->
+        <!-- Find In Files Match -->
         <dict>
             <key>scope</key>
-            <string>constant.numeric.line-number.find-in-files</string>
+            <string>constant.numeric.line-number.find-in-files - match</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F9FF</string>
+                <string>@WHITE</string>
             </dict>
         </dict>
 
-        <!-- Find In Files Line Number Match -->
-        <dict>
-            <key>scope</key>
-            <string>constant.numeric.line-number.match.find-in-files</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF00AA</string>
-            </dict>
-        </dict>
-
-        <!-- Find In Files Filename -->
+        <!-- Find In Files -->
         <dict>
             <key>scope</key>
             <string>entity.name.filename.find-in-files</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#5EFF54</string>
+                <string>@BLUE</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+
 <!-- GIT GUTTER -->
+
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
         <!-- GitGutter Deleted -->

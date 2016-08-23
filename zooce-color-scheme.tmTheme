@@ -4,28 +4,23 @@
 
 <!-- WHITE: #F2F2F2 -->
 
-<!-- LIGHT GRAY:     #8A8A8A -->
-<!-- DARK GRAY:      #262626 -->
-<!-- VERY DARK GRAY: #616161 -->
+<!-- LIGHT_GRAY:     #8A8A8A -->
+<!-- DARK_GRAY:      #262626 -->
+<!-- VERY_DARK_GRAY: #616161 -->
 
-<!-- LIGHT BLACK:    #191919 -->
-<!-- DARK BLACK:     #000000 -->
+<!-- LIGHT_BLACK:    #191919 -->
+<!-- DARK_BLACK:     #000000 -->
 
-<!-- LIGHT RED: #BF353F -->
-<!-- DARK RED:  #260B0D -->
-
-<!-- LIGHT GRAY: #8A8A8A -->
-<!-- DARK GRAY:  #262626 -->
+<!-- LIGHT_RED: #BF353F -->
+<!-- DARK_RED:  #260B0D -->
 
 <!-- YELLOW: #F2F117 -->
 <!-- BLUE:   #72A1E5 -->
 <!-- PURPLE: #A37ACC -->
 
-<!-- VERY LIGHT GREEN: #85DB18 -->
-<!-- LIGHT GREEN:      #24B2AA -->
-<!-- DARK GREEN:       #082625 -->
-
-<!-- FIND: #85DB18 -->
+<!-- VERY_LIGHT_GREEN: #85DB18 -->
+<!-- LIGHT_GREEN:      #24B2AA -->
+<!-- DARK_GREEN:       #082625 -->
 
 <dict>
     <key>author</key>
@@ -40,12 +35,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#F2F2F2</string>
+
                 <key>background</key>
                 <string>#191919</string>
+
                 <key>invisibles</key>
                 <string>#8A8A8A</string>
+
                 <key>caret</key>
                 <string>#F2F2F2</string>
+
                 <key>lineHighlight</key>
                 <string>#000000</string>
 
@@ -54,11 +53,8 @@
                 <string>#85DB18</string>
                 <key>bracketContentsOptions</key>
                 <string>stippled_underline</string>
-
                 <key>bracketsForeground</key>
                 <string>#85DB18</string>
-                <!-- <key>bracketsBackground</key>
-                <string>#85DB18</string> -->
                 <key>bracketsOptions</key>
                 <string>stippled_underline</string>
 
@@ -87,8 +83,6 @@
                 <string>#000000</string>
                 <key>selectionBorder</key>
                 <string>#222218</string>
-                <key>inactiveSelection</key>
-                <string>#000000</string>
 
                 <!-- Guide Colors -->
                 <key>guide</key>
@@ -103,12 +97,6 @@
                 <string>#000000</string>
                 <key>highlightForground</key>
                 <string>#FFFFFF</string> -->
-
-                <!-- Shadow Colors -->
-                <!-- <key>shadow</key>
-                <string>#000000</string>
-                <key>shadowWidth</key>
-                <string>10</string> -->
             </dict>
         </dict>
 <!-- ####################################################################### -->
