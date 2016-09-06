@@ -18,6 +18,10 @@ inline T const & maximum(T const & a, T const & b) {
 
 namespace Zooce {
 
+    bool isCool = false;
+    const int count = 0;
+    char myChar = 'A';
+
     typedef struct PersonalInfo {
         int age;
         std::string name;
@@ -58,6 +62,10 @@ namespace Zooce {
 
     // Implementation
 
+    /**
+     * @author: Zooce
+     * <code>some cool stuff here!</code>
+     */
     Employee::Employee(unsigned int aId, PersonalInfo aPInfo, EmployeeType aType) {
         mId = Employee::sIdNums++;
         mInfo = new PersonalInfo;
@@ -72,7 +80,7 @@ namespace Zooce {
         mInfo = NULL;
     }
 
-    void Employee::print() {
+    inline void Employee::print() {
         std::cout << "Name: " << mInfo->name << std::endl;
         std::cout << "Age: " << mInfo->age << std::endl;
         switch (mEType) {
@@ -87,6 +95,8 @@ namespace Zooce {
     }
 }
 
+int awesome(bool isCool, char type, float average, double sweet);
+
 int main(int argc, char const *argv[]) {
 
     int age(32);
@@ -95,6 +105,9 @@ int main(int argc, char const *argv[]) {
     Employee* newEmployee = new Employee(123, info, EmployeeType::HOURLY);
     newEmployee->print();
     delete newEmployee;
+
+    awesome(true, 'a', 3.2, 9.8987654);
+    awesome(false, 'b', 3.3, 9.1234562);
 
     return 0;
 }

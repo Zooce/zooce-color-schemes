@@ -2,13 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 
-<!-- PLAIN_TEXT: #E1E2E7 -->
-<!-- COMMENTS: #45BB3E -->
+<!-- PLAIN_TEXT: #FFFFFF -->
+<!-- COMMENTS: #4FD847 -->
 <!-- DOC_MARKUP: #22A055 -->
 <!-- DOC_KEYWORDS: #32CF72 -->
 <!-- STRINGS: #D3232E -->
-<!-- CHARACTERS: #746DB0 -->
-<!-- NUMBERS: #149C92 -->
+<!-- CHARACTERS: #D3232E -->
+<!-- NUMBERS: #D3232E -->
 <!-- KEYWORDS: #D7008F -->
 <!-- PREPROCESSOR: #C77A4B -->
 <!-- URLS: #5124E3 -->
@@ -16,15 +16,15 @@
 
 <!-- PROJECT_CLASS_NAMES: #1DA9A2 -->
 <!-- PROJECT_FUNCTION_NAMES: #1DA9A2 -->
-<!-- PROJECT_CONSTANTS: #1DA9A2 -->
+<!-- PROJECT_CONSTANTS: #746DB0 -->
 <!-- PROJECT_TYPES: #1DA9A2 -->
-<!-- PROJECT_VARIABLES_AND_GLOBALS: #1DA9A2 -->
+<!-- PROJECT_VARIABLES_AND_GLOBALS: #746DB0 -->
 
-<!-- USER_CLASS_NAMES: #25908D -->
-<!-- USER_FUNCTION_NAMES: #25908D -->
-<!-- USER_CONSTANTS: #25908D -->
-<!-- USER_TYPES: #25908D -->
-<!-- USER_VARIABLES_AND_GLOBALS: #25908D -->
+<!-- USER_CLASS_NAMES: #1DA9A2 -->
+<!-- USER_FUNCTION_NAMES: #1DA9A2 -->
+<!-- USER_CONSTANTS: #746DB0 -->
+<!-- USER_TYPES: #1DA9A2 -->
+<!-- USER_VARIABLES_AND_GLOBALS: #746DB0 -->
 
 <!-- BACKGROUND: #1F2029 -->
 <!-- CURRENT_LINE: #282938 -->
@@ -51,7 +51,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E1E2E7</string>
+                <string>#FFFFFF</string>
 
                 <key>background</key>
                 <string>#1F2029</string>
@@ -66,64 +66,46 @@
                 <string>#282938</string>
 
                 <key>bracketContentsForeground</key>
-                <string>#E1E2E7</string>
+                <string>#FFFFFF</string>
                 <key>bracketContentsOptions</key>
                 <string>stippled_underline</string>
 
                 <key>bracketsForeground</key>
-                <string>#E1E2E7</string>
-                <!-- <key>bracketsBackground</key>
-                <string>#E1E2E7</string> -->
+                <string>#FFFFFF</string>
                 <key>bracketsOptions</key>
                 <string>stippled_underline</string>
 
-                <!-- Tag Colors -->
                 <key>tagsForeground</key>
-                <string>#E1E2E7</string>
+                <string>#FFFFFF</string>
                 <key>tagsOptions</key>
                 <string>stippled_underline</string>
 
-                <!-- Find Colors -->
                 <key>findHighlight</key>
-                <string>#746DB0</string>
+                <string>#D3232E</string>
                 <key>findHighlightForeground</key>
-                <string>#E1E2E7</string>
+                <string>#FFFFFF</string>
 
-                <!-- Gutter Colors -->
                 <key>gutter</key>
                 <string>#1F2029</string>
                 <key>gutterForeground</key>
                 <string>#929292</string>
 
-                <!-- Selection Colors -->
                 <key>selection</key>
                 <string>#35404E</string>
-                <!-- <key>selectionBackground</key>
-                <string>#000000</string> -->
-                <!-- <key>selectionBorder</key>
-                <string>#C77A4B</string> -->
-                <!-- <key>inactiveSelection</key>
-                <string>#000000</string> -->
+                <key>selectionBorder</key>
+                <string>#C77A4B</string>
+                <key>inactiveSelection</key>
+                <string>#C77A4B</string>
 
-                <!-- Guide Colors -->
                 <key>guide</key>
                 <string>#40424B</string>
                 <key>activeGuide</key>
-                <string>#746DB0</string>
+                <string>#D3232E</string>
                 <key>stackGuide</key>
                 <string>#40424B</string>
 
-                <!-- Highlight Colors -->
-                <!-- <key>highlight</key>
-                <string>#35404E</string>
-                <key>highlightForground</key>
-                <string>#35404E</string> -->
-
-                <!-- Shadow Colors -->
-                <!-- <key>shadow</key>
-                <string>#000000</string>
-                <key>shadowWidth</key>
-                <string>10</string> -->
+                <key>highlight</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -139,7 +121,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#45BB3E</string>
+                <string>#4FD847</string>
             </dict>
         </dict>
 
@@ -243,7 +225,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#746DB0</string>
+                <string>#D3232E</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -259,7 +241,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#149C92</string>
+                <string>#D3232E</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -276,7 +258,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1DA9A2</string>
+                <string>#746DB0</string>
             </dict>
         </dict>
 
@@ -289,7 +271,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1DA9A2</string>
+                <string>#746DB0</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -297,7 +279,6 @@
 <!-- VARIABLES -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- Variable Colors -->
         <dict>
             <key>name</key>
             <string>Variable</string>
@@ -306,7 +287,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1DA9A2</string>
+                <string>#FFFFFF</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -325,7 +306,6 @@
                 <string>#D7008F</string>
             </dict>
         </dict>
-
         <dict>
             <key>name</key>
             <string>Operator Keywords</string>
@@ -334,7 +314,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E1E2E7</string>
+                <string>#FFFFFF</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -342,7 +322,6 @@
 <!-- STORAGE -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- Storage -->
         <dict>
             <key>name</key>
             <string>Storage</string>
@@ -351,16 +330,25 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1DA9A2</string>
+                <string>#D3232E</string>
             </dict>
         </dict>
-
-        <!-- Storage Types -->
         <dict>
             <key>name</key>
             <string>Storage type</string>
             <key>scope</key>
             <string>storage.type</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1DA9A2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Storage Modifier</string>
+            <key>scope</key>
+            <string>storage.modifier</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -444,7 +432,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E1E2E7</string>
+                <string>#FFFFFF</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -508,7 +496,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#1DA9A2</string>
+                <string>#746DB0</string>
             </dict>
         </dict>
 
@@ -536,7 +524,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1DA9A2</string>
+                <string>#746DB0</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -586,7 +574,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D3232E</string>
+                <string>#D7008F</string>
             </dict>
         </dict>
 
@@ -598,7 +586,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#746DB0</string>
+                <string>#D3232E</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -631,7 +619,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E1E2E7</string>
+                <string>#FFFFFF</string>
             </dict>
         </dict>
 
@@ -657,7 +645,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#45BB3E</string>
+                <string>#4FD847</string>
             </dict>
         </dict>
 
@@ -685,7 +673,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E1E2E7</string>
+                <string>#FFFFFF</string>
             </dict>
         </dict>
 
@@ -707,7 +695,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#45BB3E</string>
+                <string>#4FD847</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
