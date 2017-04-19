@@ -6,27 +6,27 @@
 <!-- COMMENTS: #4FD847 -->
 <!-- DOC_MARKUP: #22A055 -->
 <!-- DOC_KEYWORDS: #32CF72 -->
-<!-- STRINGS: #D3232E -->
-<!-- CHARACTERS: #D3232E -->
-<!-- NUMBERS: #D3232E -->
-<!-- KEYWORDS: #D7008F -->
+<!-- STRINGS: #ED2734 -->
+<!-- CHARACTERS: #ED2734 -->
+<!-- NUMBERS: #ED2734 -->
+<!-- KEYWORDS: #EB009C -->
 <!-- PREPROCESSOR: #C77A4B -->
 <!-- URLS: #5124E3 -->
 <!-- ATTRIBUTES: #55747C -->
 
 <!-- PROJECT_CLASS_NAMES: #1DA9A2 -->
 <!-- PROJECT_FUNCTION_NAMES: #1DA9A2 -->
-<!-- PROJECT_CONSTANTS: #746DB0 -->
+<!-- PROJECT_CONSTANTS: #867ECC -->
 <!-- PROJECT_TYPES: #1DA9A2 -->
-<!-- PROJECT_VARIABLES_AND_GLOBALS: #746DB0 -->
+<!-- PROJECT_VARIABLES_AND_GLOBALS: #867ECC -->
 
 <!-- USER_CLASS_NAMES: #1DA9A2 -->
 <!-- USER_FUNCTION_NAMES: #1DA9A2 -->
-<!-- USER_CONSTANTS: #746DB0 -->
+<!-- USER_CONSTANTS: #867ECC -->
 <!-- USER_TYPES: #1DA9A2 -->
-<!-- USER_VARIABLES_AND_GLOBALS: #746DB0 -->
+<!-- USER_VARIABLES_AND_GLOBALS: #867ECC -->
 
-<!-- BACKGROUND: #1F2029 -->
+<!-- BACKGROUND: #1B1C24 -->
 <!-- CURRENT_LINE: #282938 -->
 <!-- SELECTION: #35404E -->
 <!-- CURSOR: #FFFFFF -->
@@ -54,7 +54,7 @@
                 <string>#FFFFFF</string>
 
                 <key>background</key>
-                <string>#1F2029</string>
+                <string>#1B1C24</string>
 
                 <key>invisibles</key>
                 <string>#7F7F7F</string>
@@ -81,12 +81,12 @@
                 <string>stippled_underline</string>
 
                 <key>findHighlight</key>
-                <string>#D3232E</string>
+                <string>#1DA9A2</string>
                 <key>findHighlightForeground</key>
                 <string>#FFFFFF</string>
 
                 <key>gutter</key>
-                <string>#1F2029</string>
+                <string>#1B1C24</string>
                 <key>gutterForeground</key>
                 <string>#929292</string>
 
@@ -100,7 +100,7 @@
                 <key>guide</key>
                 <string>#40424B</string>
                 <key>activeGuide</key>
-                <string>#D3232E</string>
+                <string>#ED2734</string>
                 <key>stackGuide</key>
                 <string>#40424B</string>
 
@@ -213,7 +213,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D3232E</string>
+                <string>#ED2734</string>
             </dict>
         </dict>
 
@@ -225,7 +225,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D3232E</string>
+                <string>#ED2734</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -241,7 +241,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D3232E</string>
+                <string>#ED2734</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -258,7 +258,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#746DB0</string>
+                <string>#867ECC</string>
             </dict>
         </dict>
 
@@ -271,7 +271,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#746DB0</string>
+                <string>#867ECC</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -303,7 +303,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D7008F</string>
+                <string>#EB009C</string>
             </dict>
         </dict>
         <dict>
@@ -315,6 +315,33 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Word Keywords</string>
+            <key>scope</key>
+            <string>keyword.operator.word</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#867ECC</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+<!-- PUNCTUATION -->
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <dict>
+            <key>name</key>
+            <string>Generics Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.section.generic</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#867ECC</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -330,7 +357,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D3232E</string>
+                <string>#ED2734</string>
             </dict>
         </dict>
         <dict>
@@ -449,7 +476,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D7008F</string>
+                <string>#EB009C</string>
             </dict>
         </dict>
 
@@ -496,7 +523,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#746DB0</string>
+                <string>#867ECC</string>
             </dict>
         </dict>
 
@@ -524,7 +551,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#746DB0</string>
+                <string>#867ECC</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -566,6 +593,7 @@
 <!-- JSON -->
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
+        <!-- Keys -->
         <dict>
             <key>name</key>
             <string>JSON Root Keys</string>
@@ -574,10 +602,11 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D7008F</string>
+                <string>#1DA9A2</string>
             </dict>
         </dict>
 
+        <!-- String Values -->
         <dict>
             <key>name</key>
             <string>JSON String Values</string>
@@ -586,7 +615,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D3232E</string>
+                <string>#ED2734</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -602,7 +631,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D3232E</string>
+                <string>#ED2734</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -632,7 +661,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D3232E</string>
+                <string>#ED2734</string>
             </dict>
         </dict>
 
@@ -684,7 +713,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D7008F</string>
+                <string>#EB009C</string>
             </dict>
         </dict>
 

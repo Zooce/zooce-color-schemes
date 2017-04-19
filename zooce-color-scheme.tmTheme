@@ -83,12 +83,12 @@
                 <!-- Selection Colors -->
                 <key>selection</key>
                 <string>#BF353F</string>
-                <key>selectionBackground</key>
-                <string>#000000</string>
+                <!-- <key>selectionBackground</key>
+                <string>#000000</string> -->
                 <key>selectionBorder</key>
-                <string>#222218</string>
+                <string>#85DB18</string>
                 <key>inactiveSelection</key>
-                <string>#8A8A8A</string>
+                <string>#85DB18</string>
 
                 <!-- Guide Colors -->
                 <key>guide</key>
