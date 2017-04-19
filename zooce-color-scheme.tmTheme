@@ -88,7 +88,7 @@
                 <key>selectionBorder</key>
                 <string>#222218</string>
                 <key>inactiveSelection</key>
-                <string>#000000</string>
+                <string>#8A8A8A</string>
 
                 <!-- Guide Colors -->
                 <key>guide</key>
