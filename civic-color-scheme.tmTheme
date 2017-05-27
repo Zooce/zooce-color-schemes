@@ -634,6 +634,17 @@
                 <string>#ED2734</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Python Logical Operator Keyword</string>
+            <key>scope</key>
+            <string>keyword.operator.logical.python</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#EB009C</string>
+            </dict>
+        </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
 <!-- DIFF -->
