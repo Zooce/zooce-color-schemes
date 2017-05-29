@@ -362,13 +362,24 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Storage type</string>
+            <string>Storage Type</string>
             <key>scope</key>
             <string>storage.type</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#1DA9A2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Storage Type</string>
+            <key>scope</key>
+            <string>storage.type.function</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#EB009C</string>
             </dict>
         </dict>
         <dict>
