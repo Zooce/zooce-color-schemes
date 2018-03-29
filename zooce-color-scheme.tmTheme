@@ -300,20 +300,7 @@
             <key>name</key>
             <string>Class name</string>
             <key>scope</key>
-            <string>entity.name.class</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#24B2AA</string>
-            </dict>
-        </dict>
-
-        <!-- Inherited Classes -->
-        <dict>
-            <key>name</key>
-            <string>Inherited class</string>
-            <key>scope</key>
-            <string>entity.other.inherited-class</string>
+            <string>entity.name.class, entity.other.inherited-class, entity.name.enum, entity.name.struct</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -418,7 +405,7 @@
         </dict>
 
         <!-- Library Classes/Types -->
-        <dict>
+        <!-- <dict>
             <key>name</key>
             <string>Library class/type</string>
             <key>scope</key>
@@ -428,7 +415,7 @@
                 <key>foreground</key>
                 <string>#24B2AA</string>
             </dict>
-        </dict>
+        </dict> -->
 
         <!-- Library Variables -->
         <!-- <dict>
