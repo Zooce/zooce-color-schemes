@@ -17,9 +17,10 @@
 <!-- LIGHT GRAY: #8A8A8A -->
 <!-- DARK GRAY:  #262626 -->
 
-<!-- YELLOW: #F2F117 -->
+<!-- YELLOW: #D0FF00 -->
 <!-- BLUE:   #72A1E5 -->
 <!-- PURPLE: #A37ACC -->
+<!-- PINK:   #E84897 -->
 
 <!-- VERY LIGHT GREEN: #85DB18 -->
 <!-- LIGHT GREEN:      #24B2AA -->
@@ -146,7 +147,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F2F117</string>
+                <string>#E84897</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -164,7 +165,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#72A1E5</string>
+                <string>#D0FF00</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -183,7 +184,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#72A1E5</string>
+                <string>#D0FF00</string>
             </dict>
         </dict>
 
@@ -196,7 +197,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#72A1E5</string>
+                <string>#D0FF00</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -492,16 +493,29 @@
 
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- JSON Strings -->
+        <!-- JSON Key -->
         <dict>
             <key>name</key>
             <string>JSON String</string>
             <key>scope</key>
-            <string>meta.structure.dictionary.json string.quoted.double.json</string>
+            <string>meta.structure.dictionary.key.json string.quoted.double.json</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F2F117</string>
+                <string>#72A1E5</string>
+            </dict>
+        </dict>
+
+        <!-- JSON Value -->
+        <dict>
+            <key>name</key>
+            <string>JSON String</string>
+            <key>scope</key>
+            <string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E84897</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -580,7 +594,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F2F2F2</string>
+                <string>#72A1E5</string>
             </dict>
         </dict>
 

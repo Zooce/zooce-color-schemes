@@ -96,6 +96,8 @@
                 <string>#C77A4B</string>
                 <key>inactiveSelection</key>
                 <string>#C77A4B</string>
+                <key>inactiveSelectionForeground</key>
+                <string>#FFFFFF</string>
 
                 <key>guide</key>
                 <string>#40424B</string>
@@ -368,7 +370,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1DA9A2</string>
+                <string>#EB009C</string>
             </dict>
         </dict>
         <dict>
@@ -379,7 +381,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1DA9A2</string>
+                <string>#EB009C</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -632,6 +634,17 @@
             <dict>
                 <key>foreground</key>
                 <string>#ED2734</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Logical Keywords</string>
+            <key>scope</key>
+            <string>keyword.operator.logical.python</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#EB009C</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
