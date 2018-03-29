@@ -284,8 +284,6 @@
             <string>entity.name.namespace, entity.name.tag.namespace, entity.other.attribute-name.namespace</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#72A1E5</string>
             </dict>
@@ -318,8 +316,6 @@
             <string>entity.other.inherited-class</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#24B2AA</string>
             </dict>
@@ -403,8 +399,6 @@
             <string>support.function</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#24B2AA</string>
             </dict>
@@ -418,8 +412,6 @@
             <string>support.constant</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#24B2AA</string>
             </dict>
@@ -433,8 +425,6 @@
             <string>support.type, support.class</string>
             <key>settings</key>
             <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
                 <key>foreground</key>
                 <string>#24B2AA</string>
             </dict>
@@ -489,6 +479,38 @@
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
 
+<!-- C++ -->
+
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+        <!-- Preprocessor Macro Value -->
+        <dict>
+            <key>name</key>
+            <string>C++ Preprocessor Macro Value</string>
+            <key>scope</key>
+            <string>meta.preprocessor.macro.c++ storage.modifier.c++, meta.preprocessor.macro.c++ storage.type.c, meta.preprocessor.macro.c++ meta.function-call.c++, meta.preprocessor.macro.c++ meta.function-call.c++ variable.function.c++, source.c++ meta.preprocessor.macro.c++, source.c++ meta.preprocessor.macro.c++ keyword.operator, source.c++ meta.preprocessor.macro.c++ keyword.control.c++</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E84897</string>
+            </dict>
+        </dict>
+
+        <!-- Preprocessor Macro Name -->
+        <dict>
+            <key>name</key>
+            <string>C++ Preprocessor Macro Name</string>
+            <key>scope</key>
+            <string>meta.preprocessor.macro.c++ entity.name.function.preprocessor.c++</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#24B2AA</string>
+            </dict>
+        </dict>
+<!-- ####################################################################### -->
+<!-- ####################################################################### -->
+
 <!-- JSON -->
 
 <!-- ####################################################################### -->
@@ -498,7 +520,7 @@
             <key>name</key>
             <string>JSON String</string>
             <key>scope</key>
-            <string>meta.structure.dictionary.key.json string.quoted.double.json</string>
+            <string>meta.structure.dictionary.key.json, string.quoted.double.json</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -511,7 +533,7 @@
             <key>name</key>
             <string>JSON String</string>
             <key>scope</key>
-            <string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+            <string>meta.structure.dictionary.value.json, string.quoted.double.json</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
