@@ -1,0 +1,114 @@
+{
+    "name": "Zooce",
+	"colors": {
+		"editor.foreground": "#F2F2F2",
+		"editor.background": "#191919",
+		"editorWhitespace.foreground": "#8A8A8A",
+		"editorCursor.foreground": "#F2F2F2",
+		"editor.lineHighlightBackground": "#000000",
+		"editor.selectionBackground": "#BF353F",
+		"editor.selectionHighlightBorder": "#85DB18",
+		"editor.inactiveSelectionBackground": "#85DB18",
+		"editorIndentGuide.background": "#222218",
+		"editorGutter.background": "#000000",
+		"editorBracketMatch.background": "#85DB18",
+		"editorBracketMatch.border": "#85DB18",
+		"editorOverviewRuler.bracketMatchForeground": "#85DB18",
+		"editor.findMatchBackground": "#BF353F",
+		"editor.findMatchBorder": "#85DB18"
+	},
+	"tokenColors": [
+        {
+            "name": "WHITE",
+            "scope": [
+                "meta.function-call.arguments",
+                "punctuation.definition.arguments",
+                "punctuation.section.arguments",
+                "punctuation.separator"
+            ],
+            "settings": {
+                "foreground": "#F2F2F2"
+            }
+        },
+		{
+			"name": "GRAY",
+			"scope": [
+                "comment",
+                "entity.name.function.decorator",
+                "string.quoted.docstring"
+            ],
+			"settings": {
+                "foreground": "#8A8A8A"
+			}
+		},
+		{
+			"name": "PINK",
+			"scope": [
+                "string",
+                "source.ini"
+            ],
+			"settings": {
+                "foreground": "#E84897"
+			}
+		},
+		{
+			"name": "YELLOW",
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"constant.character",
+                "constant.other",
+                "variable.other.bracket",
+                "variable.other.special",
+                "variable.other.positional",
+                "string.quoted.double.shell variable.other.normal.shell"
+			],
+			"settings": {
+				"foreground": "#D0FF00"
+			}
+		},
+		{
+			"name": "BLUE",
+			"scope": [
+                "storage",
+                "entity.name.function",
+                "support.type",
+                "variable.other.normal.shell"
+			],
+			"settings": {
+				"foreground": "#72A1E5"
+			}
+        },
+		{
+			"name": "PURPLE",
+			"scope": [
+                "keyword.control",
+                "keyword.control.directive",
+                "keyword.control.flow",
+                "keyword.control.import",
+                "keyword.operator",
+                "keyword.other",
+                "entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#A37ACC"
+			}
+		},
+		{
+			"name": "GREEN",
+			"scope": [
+                "entity.name.function",
+                "entity.name.type",
+                "keyword.control.cpp",
+                "meta.function-call.python",
+                "entity.other.attribute-name",
+                "entity.name.section",
+                "punctuation.definition.logical-expression",
+                "support.function.builtin"
+			],
+			"settings": {
+				"foreground": "#24B2AA"
+			}
+		}
+	]
+}
