@@ -1,0 +1,22 @@
+{
+    "name": "zooce",
+    "displayName": "theme-zooce",
+    "description": "A color theme for gods.",
+    "version": "0.0.1",
+    "publisher": "Zooce",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zooce",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zooce-color-theme.json"
+            }
+        ]
+    }
+}
