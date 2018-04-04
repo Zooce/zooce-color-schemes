@@ -507,7 +507,7 @@
             <key>name</key>
             <string>JSON String</string>
             <key>scope</key>
-            <string>meta.structure.dictionary.key.json, string.quoted.double.json</string>
+            <string>meta.structure.dictionary.key.json string.quoted.double.json</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -520,7 +520,7 @@
             <key>name</key>
             <string>JSON String</string>
             <key>scope</key>
-            <string>meta.structure.dictionary.value.json, string.quoted.double.json</string>
+            <string>meta.structure.dictionary.value.json string.quoted.double.json</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
