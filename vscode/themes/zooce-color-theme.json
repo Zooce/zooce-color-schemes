@@ -166,7 +166,13 @@
 			"settings": {
 				"foreground": "#72A1E5"
 			}
-		},
+        },
+        {
+            "scope": "variable.parameter.function.language.special",
+            "settings": {
+                "foreground": "#E84897"
+            }
+        },
 		//===--- STORAGE ---===//
 		{
 			"scope": "storage",
