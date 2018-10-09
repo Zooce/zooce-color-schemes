@@ -145,7 +145,7 @@
             <key>name</key>
             <string>Documentation</string>
             <key>scope</key>
-            <string>comment.block.documentation</string>
+            <string>comment.block</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
