@@ -17,11 +17,12 @@
 <!-- LIGHT GRAY: #8A8A8A -->
 <!-- DARK GRAY:  #262626 -->
 
-<!-- YELLOW: #D0FF00 -->
-<!-- ORANGE: #FA8237 -->
-<!-- BLUE:   #528EE5 -->
-<!-- PURPLE: #9762CC -->
-<!-- PINK:   #E8388F -->
+<!-- YELLOW:    #D0FF00 -->
+<!-- ORANGE:    #FA8237 -->
+<!-- BLUE:      #528EE5 -->
+<!-- PURPLE:    #9762CC -->
+<!-- PINK:      #E8388F -->
+<!-- DARK PINK: #2E0B1C -->
 
 <!-- LIGHT BLUE: #8EB1E5 -->
 <!-- DARK BLUE: #2A3544 -->
@@ -135,9 +136,9 @@
                 <key>background</key>
                 <string>#262626</string> -->
                 <key>foreground</key>
-                <string>#8EB1E5</string>
+                <string>#E8388F</string>
                 <key>background</key>
-                <string>#2A3544</string>
+                <string>#2E0B1C</string>
             </dict>
         </dict>
 
@@ -169,7 +170,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E8388F</string>
+                <string>#8EB1E5</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
@@ -546,7 +547,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#528EE5</string>
+                <string>#9762CC</string>
             </dict>
         </dict>
 
@@ -559,7 +560,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#E8388F</string>
+                <string>#8EB1E5</string>
             </dict>
         </dict>
 <!-- ####################################################################### -->
