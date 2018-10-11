@@ -43,6 +43,12 @@
         },
         //===--- COMMENT ---===//
         {
+            "scope": "comment.line.number-sign.git-commit",
+            "settings": {
+                "foreground": "#8A8A8A"
+            }
+        },
+        {
             "scope": "comment.line",
             "settings": {
                 "foreground": "#E8388F"
@@ -253,6 +259,25 @@
             "scope": "meta.function-call.python",
             "settings": {
                 "foreground": "#20B2AA"
+            }
+        },
+        //===--- MARKUP ---===//
+        {
+            "scope": "markup.changed",
+            "settings": {
+                "foreground": "#FA8237"
+            }
+        },
+        {
+            "scope": "markup.deleted",
+            "settings": {
+                "foreground": "#E83841"
+            }
+        },
+        {
+            "scope": "markup.inserted",
+            "settings": {
+                "foreground": "#85DB18"
             }
         }
     ]
