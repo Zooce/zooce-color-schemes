@@ -194,6 +194,12 @@
         },
         //===--- SUPPORT ---===//
         {
+            "scope": "support.type.property-name",
+            "settings": {
+                "foreground": "#9762CC"
+            }
+        },
+        {
             "scope": "support.type",
             "settings": {
                 "foreground": "#528EE5"
