@@ -285,6 +285,13 @@
             "settings": {
                 "foreground": "#85DB18"
             }
+        },
+        //===--- INI ---===//
+        {
+            "scope": "source.ini",
+            "settings": {
+                "foreground": "#8EB1E5"
+            }
         }
     ]
 }
