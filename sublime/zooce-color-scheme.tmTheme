@@ -137,8 +137,8 @@
                 <string>#262626</string> -->
                 <key>foreground</key>
                 <string>#E8388F</string>
-                <key>background</key>
-                <string>#2E0B1C</string>
+                <!-- <key>background</key>
+                <string>#2E0B1C</string> -->
             </dict>
         </dict>
 
