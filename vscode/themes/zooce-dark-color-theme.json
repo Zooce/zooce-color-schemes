@@ -49,6 +49,12 @@
             }
         },
         {
+            "scope": "comment.line.message",
+            "settings": {
+                "foreground": "#8EB1E5"
+            }
+        },
+        {
             "scope": "comment.line",
             "settings": {
                 "foreground": "#E8388F"
