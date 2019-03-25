@@ -74,6 +74,12 @@
             }
         },
         {
+            "scope": "entity.name.function.preprocessor",
+            "settings": {
+                "foreground": "#8A8A8A"
+            }
+        },
+        {
             "scope": "entity.name.tag",
             "settings": {
                 "foreground": "#9762CC"
@@ -103,6 +109,12 @@
                 "foreground": "#20B2AA"
             }
         },
+        // {
+        //     "scope": "entity.scope.name",
+        //     "settings": {
+        //         "foreground": "#8A8A8A"
+        //     }
+        // },
         //===--- STRING ---===//
         {
             "scope": "string.quoted.docstring",
@@ -217,6 +229,12 @@
                 "foreground": "#20B2AA"
             }
         },
+        {
+            "scope": "support.class.preprocessings",
+            "settings": {
+                "foreground": "#8A8A8A"
+            }
+        },
         //===--- KEYWORD ---===//
         {
             "scope": "keyword.control",
@@ -228,6 +246,12 @@
             "scope": "keyword.control.directive",
             "settings": {
                 "foreground": "#9762CC"
+            }
+        },
+        {
+            "scope": "keyword.control.directive.conditional",
+            "settings": {
+                "foreground": "#8A8A8A"
             }
         },
         {
