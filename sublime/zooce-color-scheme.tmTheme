@@ -230,18 +230,18 @@
 
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
-        <!-- Variable Colors -->
-        <!-- <dict>
+        <!-- Language Variable Colors -->
+        <dict>
             <key>name</key>
-            <string>Variable</string>
+            <string>Language Variable</string>
             <key>scope</key>
-            <string>variable</string>
+            <string>variable.language</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F2F2F2</string>
+                <string>#9762CC</string>
             </dict>
-        </dict> -->
+        </dict>
 <!-- ####################################################################### -->
 <!-- ####################################################################### -->
 
