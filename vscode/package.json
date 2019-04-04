@@ -22,9 +22,9 @@
                 "path": "./themes/zooce-dark-color-theme.json"
             },
             {
-                "label": "Zooce Light",
-                "uiTheme": "vs",
-                "path": "./themes/zooce-light-color-theme.json"
+                "label": "Zooce Dark 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zooce-dark-2-color-theme.json"
             }
         ]
     }
