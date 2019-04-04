@@ -1,0 +1,39 @@
+{
+    // https://code.visualstudio.com/api/references/theme-color
+
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Zooce Dark 2",
+    "type": "Dark",
+    "colors": {
+        // Editor
+        "editor.background": "#002b36",
+        "editor.foreground": "#eee8d5",
+
+        // Activity Bar
+        "activityBar.background": "#002b36",
+        "activityBar.foreground": "#eee8d5",
+        "activityBar.border": "#657b83",
+        "activityBarBadge.background": "#49cfc6",
+        "activityBarBadge.foreground": "#002b36",
+
+        // Side Bar
+        "sideBar.background": "#002b36",
+        "sideBar.foreground": "#eee8d5",
+        "sideBar.border": "#657b83",
+
+        // Tabs
+        "tab.activeForeground": "#eee8d5",
+        "tab.inactiveBackground": "#303738",
+
+        // Title Bar
+        "titleBar.activeBackground": "#002b36",
+        "titleBar.activeForeground": "#eee8d5",
+        "titleBar.border": "#657b83",
+
+        // Status Bar
+        "statusBar.background": "#fdbe00",
+        "statusBar.foreground": "#002b36"
+    },
+    "tokenColors": [
+    ]
+}
