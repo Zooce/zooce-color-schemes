@@ -1,8 +1,62 @@
 {
+    // MAIN COLORS
+    // DARK BLUE 1: 0A384A
+    // DARK BLUE 2: 024253
+    // DARK GREEN : 609691
+    // OLIVE      : C2D2C4
+    // TAN        : F4F3E1
+    // GRAY       : E3E3E3
+    // GOLD       : FFC300
+    // RED        : C70039
+    // BRIGHT BLUE: 2278FF
+
+    // https://code.visualstudio.com/api/references/theme-color
+
+    "$schema": "vscode://schemas/color-theme",
     "name": "Zooce Light",
+    "type": "Light",
     "colors": {
+        // Activity Bar
+        "activityBar.background": "#609691",
+        "activityBar.foreground": "#FFFFFF",
+        "activityBarBadge.background": "#024253",
+        "activityBarBadge.foreground": "#FFFFFF",
+
+        // Side Bar
+        "sideBar.background": "#E3E3E3",
+        "sideBar.foreground": "#000000",
+
+        // Editor Gutter
+        "editorGutter.background": "#C2D2C4",
+        "editorGutter.addedBackground": "#FFFFFF",
+        "editorGutter.modifiedBackground": "#2278FF",
+        "editorGutter.deletedBackground": "#C70039",
+
+        // Editor Overview Ruler
+        "editorOverviewRuler.addedForeground": "#FFFFFF",
+        "editorOverviewRuler.modifiedForeground": "#2278FF",
+        "editorOverviewRuler.deletedForeground": "#C70039",
+        "editorOverviewRuler.bracketMatchForeground": "#85DB18",
+
+        // Editor Group
+        "editorGroup.dropBackground": "#F4F3E16E",
+        "editorGroup.emptyBackground": "#C2D2C4",
+
+        // Editor Group Header
+        "editorGroupHeader.tabsBackground": "#E3E3E3",
+        "editorGroupHeader.tabsBorder": "#C2D2C4",
+
+        // Tabs
+        "tab.activeBackground": "#C2D2C4",
+        "tab.activeForeground": "#000000",
+        "tab.inactiveBackground": "#E3E3E3",
+        "tab.inactiveForeground": "#000000",
+        "tab.border": "#C2D2C4",
+        "tab.hoverBackground": "#C2D2C46E",
+
+        // Editor
         "editor.foreground": "#191919",
-        "editor.background": "#F2F2F2",
+        "editor.background": "#C2D2C4",
         "editorWhitespace.foreground": "#8A8A8A",
         "editorCursor.foreground": "#191919",
         "editor.lineHighlightBackground": "#E3E3E3",
@@ -10,9 +64,7 @@
         "editor.selectionHighlightBorder": "#85DB18",
         "editor.inactiveSelectionBackground": "#85DB18",
         "editorIndentGuide.background": "#222218",
-        "editorGutter.background": "#E3E3E3",
         "editorBracketMatch.border": "#85DB18",
-        "editorOverviewRuler.bracketMatchForeground": "#85DB18",
         "editor.findMatchBorder": "#85DB18"
     },
     "tokenColors": [
