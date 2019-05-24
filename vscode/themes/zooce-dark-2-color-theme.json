@@ -6,18 +6,18 @@
     "type": "Dark",
     "colors": {
         // Editor
-        "editor.background": "#002b36",
+        "editor.background": "#252525",
         "editor.foreground": "#eee8d5",
 
         // Activity Bar
-        "activityBar.background": "#002b36",
+        "activityBar.background": "#252525",
         "activityBar.foreground": "#eee8d5",
         "activityBar.border": "#657b83",
-        "activityBarBadge.background": "#49cfc6",
-        "activityBarBadge.foreground": "#002b36",
+        "activityBarBadge.background": "#d33480",
+        "activityBarBadge.foreground": "#eee8d5",
 
         // Side Bar
-        "sideBar.background": "#002b36",
+        "sideBar.background": "#2e2e2e",
         "sideBar.foreground": "#eee8d5",
         "sideBar.border": "#657b83",
 
@@ -26,14 +26,149 @@
         "tab.inactiveBackground": "#303738",
 
         // Title Bar
-        "titleBar.activeBackground": "#002b36",
+        "titleBar.activeBackground": "#252525",
         "titleBar.activeForeground": "#eee8d5",
         "titleBar.border": "#657b83",
 
         // Status Bar
-        "statusBar.background": "#fdbe00",
-        "statusBar.foreground": "#002b36"
+        "statusBar.background": "#252525",
+        "statusBar.foreground": "#eee8d5",
+        "statusBar.border": "#657b83"
     },
     "tokenColors": [
+        // Punctuation
+        {
+            "scope": "punctuation.definition.parameters",
+            "settings": {
+                "foreground": "#fdbe00"
+            }
+        },
+        // Comments
+        {
+            "scope": "punctuation.definition.comment",
+            "settings": {
+                "foreground": "#00ff64"
+            }
+        },
+        {
+            "scope": "string.quoted.docstring",
+            "settings": {
+                "foreground": "#00ff64"
+            }
+        },
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#00ff64"
+            }
+        },
+        // Keywords
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#6c71c4"
+            }
+        },
+        {
+            "scope": "keyword.operator.memory",
+            "settings": {
+                "foreground": "#49cfc6"
+            }
+        },
+        // Storage
+        {
+            "scope": "storage",
+            "settings": {
+                "foreground": "#6c71c4"
+            }
+        },
+        // Entity
+        {
+            "scope": "entity.name.type",
+            "settings": {
+                "foreground": "#9caaab"
+            }
+        },
+        {
+            "scope": "keyword.control.directive",
+            "settings": {
+                "foreground": "#9caaab"
+            }
+        },
+        // Support
+        {
+            "scope": "punctuation.support",
+            "settings": {
+                "foreground": "#49cfc6"
+            }
+        },
+        {
+            "scope": "support",
+            "settings": {
+                "foreground": "#49cfc6"
+            }
+        },
+        // String
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#d33480"
+            }
+        },
+        {
+            "scope": "punctuation.definition.string",
+            "settings": {
+                "foreground": "#d33480"
+            }
+        },
+        // Constant
+        {
+            "scope": "constant",
+            "settings": {
+                "foreground": "#d33480"
+            }
+        }
+        // {
+        //     "scope": "punctuation.definition.parameters",
+        //     "settings": {
+        //         "foreground": "#fdbe00"
+        //     }
+        // },
+        // {
+        //     "scope": "punctuation.section",
+        //     "settings": {
+        //         "foreground": "#fdbe00"
+        //     }
+        // },
+        // {
+        //     "scope": "punctuation.definition.scope",
+        //     "settings": {
+        //         "foreground": "#fdbe00"
+        //     }
+        // },
+        // {
+        //     "scope": "punctuation.definition.begin",
+        //     "settings": {
+        //         "foreground": "#fdbe00"
+        //     }
+        // },
+        // {
+        //     "scope": "punctuation.definition.end",
+        //     "settings": {
+        //         "foreground": "#fdbe00"
+        //     }
+        // },
+        // {
+        //     "scope": "punctuation.definition.arguments",
+        //     "settings": {
+        //         "foreground": "#fdbe00"
+        //     }
+        // },
+        // {
+        //     "scope": "punctuation.definition.list",
+        //     "settings": {
+        //         "foreground": "#fdbe00"
+        //     }
+        // }
     ]
 }

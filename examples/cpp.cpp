@@ -13,11 +13,15 @@
 
 template <typename T>
 inline T const & maximum(T const & a, T const & b) {
+    if (true) {
+        std::cout << "I'm cool!" << std::endl;
+    }
     return a < b ? b : a;
 }
 
 namespace Zooce {
 
+    bool thoseThings[6];
     bool isCool = false;
     const int count = 0;
     char myChar = 'A';

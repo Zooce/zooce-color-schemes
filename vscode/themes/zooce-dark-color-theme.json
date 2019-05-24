@@ -235,6 +235,12 @@
                 "foreground": "#8A8A8A"
             }
         },
+        {
+            "scope": "support.function",
+            "settings": {
+                "foreground": "#20B2AA"
+            }
+        },
         //===--- KEYWORD ---===//
         {
             "scope": "keyword.control",
@@ -282,6 +288,12 @@
             "scope": "keyword.control.cpp",
             "settings": {
                 "foreground": "#20B2AA"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#9762CC"
             }
         },
         //===--- META ---===//
