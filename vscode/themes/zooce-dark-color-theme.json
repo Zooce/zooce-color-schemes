@@ -2,14 +2,15 @@
     "name": "Zooce",
     "colors": {
         "editor.foreground": "#F2F2F2",
-        "editor.background": "#191919",
+        "editor.background": "#2b2a2a",
         "editorWhitespace.foreground": "#8A8A8A",
         "editorCursor.foreground": "#F2F2F2",
         "editor.lineHighlightBackground": "#000000",
         "editor.selectionBackground": "#BF353F",
         "editor.selectionHighlightBorder": "#85DB18",
         "editor.inactiveSelectionBackground": "#85DB18",
-        "editorIndentGuide.background": "#222218",
+        "editorIndentGuide.background": "#858563",
+        "editorIndentGuide.activeBackground": "#ffffff",
         "editorGutter.background": "#000000",
         "editorBracketMatch.border": "#85DB18",
         "editorOverviewRuler.bracketMatchForeground": "#85DB18",
@@ -38,7 +39,7 @@
         {
             "scope": "punctuation.definition.logical-expression",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
             }
         },
         //===--- COMMENT ---===//
@@ -57,7 +58,7 @@
         {
             "scope": "comment.line",
             "settings": {
-                "foreground": "#E8388F"
+                "foreground": "#ff43a1"
             }
         },
         {
@@ -82,31 +83,31 @@
         {
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
             }
         },
         {
             "scope": "entity.name.type",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
             }
         },
         {
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
             }
         },
         {
             "scope": "entity.name.section",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
             }
         },
         // {
@@ -138,7 +139,7 @@
         {
             "scope": "source.ini",
             "settings": {
-                "foreground": "#E8388F"
+                "foreground": "#ff43a1"
             }
         },
         //===--- CONSTANT ---===//
@@ -176,7 +177,7 @@
         {
             "scope": "variable.language",
             "settings": {
-                "foreground": "#E8388F"
+                "foreground": "#ff43a1"
             }
         },
         {
@@ -194,39 +195,39 @@
         {
             "scope": "variable.other.normal.shell",
             "settings": {
-                "foreground": "#528EE5"
+                "foreground": "#72aafd"
             }
         },
         {
             "scope": "variable.parameter.function.language.special",
             "settings": {
-                "foreground": "#E8388F"
+                "foreground": "#ff43a1"
             }
         },
         //===--- STORAGE ---===//
         {
             "scope": "storage",
             "settings": {
-                "foreground": "#528EE5"
+                "foreground": "#72aafd"
             }
         },
         //===--- SUPPORT ---===//
         {
             "scope": "support.type.property-name",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         {
             "scope": "support.type",
             "settings": {
-                "foreground": "#528EE5"
+                "foreground": "#72aafd"
             }
         },
         {
             "scope": "support.function.builtin",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
             }
         },
         {
@@ -238,20 +239,20 @@
         {
             "scope": "support.function",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
             }
         },
         //===--- KEYWORD ---===//
         {
             "scope": "keyword.control",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         {
             "scope": "keyword.control.directive",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         {
@@ -263,37 +264,37 @@
         {
             "scope": "keyword.control.flow",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         {
             "scope": "keyword.control.import",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         {
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         {
             "scope": "keyword.other",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         {
             "scope": "keyword.control.cpp",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
             }
         },
         {
             "scope": "keyword",
             "settings": {
-                "foreground": "#9762CC"
+                "foreground": "#b26ef7"
             }
         },
         //===--- META ---===//
@@ -306,7 +307,13 @@
         {
             "scope": "meta.function-call.python",
             "settings": {
-                "foreground": "#20B2AA"
+                "foreground": "#2be0d7"
+            }
+        },
+        {
+            "scope": "meta.attribute",
+            "settings": {
+                "foreground": "#c97961"
             }
         },
         //===--- MARKUP ---===//
@@ -332,7 +339,7 @@
         {
             "scope": "source.ini",
             "settings": {
-                "foreground": "#8EB1E5"
+                "foreground": "#72aafd"
             }
         }
     ]

@@ -25,6 +25,11 @@
                 "label": "Zooce Dark 2",
                 "uiTheme": "vs-dark",
                 "path": "./themes/zooce-dark-2-color-theme.json"
+            },
+            {
+                "label": "Zooce Dark 3",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zooce-dark-3-color-theme.json"
             }
         ]
     }
