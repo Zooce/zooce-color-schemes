@@ -3,5 +3,13 @@ All notable changes to the "zooce" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.3.0]
+- Updated README.md with previews
+- Changed name of "medium" theme
+- Made minor changes to some files in the ../examples directory
+
+## [0.2.0]
 - Initial release
+
+## [0.1.0]
+- Experimentation phase

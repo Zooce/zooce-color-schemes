@@ -21,9 +21,9 @@ inline T const & maximum(T const & a, T const & b) {
 
 namespace Zooce {
 
-    bool thoseThings[6];
+    bool thoseThings[6]; // you know these are cool, come on
     bool isCool = false;
-    const int count = 0;
+    const int count = 0; /* obviously we start at 0 */
     char myChar = 'A';
 
     typedef struct PersonalInfo {

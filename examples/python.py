@@ -5,7 +5,7 @@ import numpy as np
 def somefunc(param1='', param2=0):
     r'''A docstring'''
     if param1 > param2: # interesting
-        print 'Gre\'ater'  # << syntax error
+        print('Gre\'ater')
     return (param2 - param1 + 1) or None
 
 class SomeClass:
@@ -14,12 +14,13 @@ class SomeClass:
     def cats(arg):
         abc = 1
         deg = [1, 2, '3', "4"]
+        return { "one": 1, "two": 2 }
 
     def another(arg):
         pass
 
->>> message = '''interpreter
+message = '''interpreter
 ... prompt'''
 
 if __name__ == "__main__":
-    print(f'this is {4 + 5}')
+    print(f'this is {4 + 5}') # who doesn't love f-strings?

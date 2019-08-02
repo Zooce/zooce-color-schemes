@@ -2,7 +2,7 @@
     // https://code.visualstudio.com/api/references/theme-color
 
     "$schema": "vscode://schemas/color-theme",
-    "name": "Zooce Dark 3",
+    "name": "Zooce Medium",
     "type": "Dark",
     "colors": {
         // Editor

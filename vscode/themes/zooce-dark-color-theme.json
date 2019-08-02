@@ -1,5 +1,7 @@
 {
-    "name": "Zooce",
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Zooce Dark",
+    "type": "Dark",
     "colors": {
         "editor.foreground": "#F2F2F2",
         "editor.background": "#2b2a2a",
