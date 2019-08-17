@@ -8,10 +8,14 @@
         // Editor
         "editor.background": "#534864",
         "editor.foreground": "#ececec",
+        "editor.selectionBackground": "#e48cb74d",
+        "editor.selectionHighlightBorder": "#b4b4b4",
         "editorSuggestWidget.background": "#727272",
         "editorSuggestWidget.foreground": "#ffffff",
         "editorWidget.background": "#727272",
         "editorWidget.foreground": "#ffffff",
+        "editorWidget.border": "#b4b4b4",
+        "editorCursor.foreground": "#ff449f",
         "scrollbarSlider.background": "#292929c7",
 
         // Terminal
@@ -29,6 +33,7 @@
         "sideBar.background": "#333333",
         "sideBar.foreground": "#ffffff",
         "sideBar.border": "#b4b4b4",
+        "focusBorder": "#e48cb6",
 
         // Tabs
         "tab.activeForeground": "#ffffff",
@@ -42,7 +47,12 @@
         // Status Bar
         "statusBar.background": "#252525",
         "statusBar.foreground": "#eee8d5",
-        "statusBar.border": "#b4b4b4"
+        "statusBar.border": "#b4b4b4",
+
+        // Git
+        "editorGutter.addedBackground": "#00ff64",
+        "editorGutter.modifiedBackground": "#fdbe00",
+        "editorGutter.deletedBackground": "#ff0000"
     },
     "tokenColors": [
         // Punctuation

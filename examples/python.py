@@ -12,11 +12,11 @@ class SomeClass:
     '''This is a docstring
     '''
     def cats(arg):
-        abc = 1
         deg = [1, 2, '3', "4"]
+        huh = deg.append(1)
         return { "one": 1, "two": 2 }
 
-    def another(arg):
+    def another(arg):  # oh really?
         pass
 
 message = '''interpreter

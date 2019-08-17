@@ -8,36 +8,36 @@ My goal is to have a dark theme, a "medium" theme, and a light theme.
 
 ### Rust
 
-![rust_dark](./previews/rust_preview_dark.png)
+![rust_dark](https://github.com/Zooce/zooce-color-scheme/blob/master/vscode/previews/rust_preview_dark.png)
 
 ### Python
 
-![python_dark](./previews/python_preview_dark.png)
+![python_dark](https://github.com/Zooce/zooce-color-scheme/blob/master/vscode/previews/python_preview_dark.png)
 
 ### Go
 
-![go_dark](./previews/go_preview_dark.png)
+![go_dark](https://github.com/Zooce/zooce-color-scheme/blob/master/vscode/previews/go_preview_dark.png)
 
 ### C++
 
-![cpp_dark](./previews/cpp_preview_dark.png)
+![cpp_dark](https://github.com/Zooce/zooce-color-scheme/blob/master/vscode/previews/cpp_preview_dark.png)
 
 ## "Medium" Theme
 
 ### Rust
 
-![rust_med](./previews/rust_preview_med.png)
+![rust_med](https://github.com/Zooce/zooce-color-scheme/blob/master/vscode/previews/rust_preview_med.png)
 
 ### Python
 
-![python_med](./previews/python_preview_med.png)
+![python_med](https://github.com/Zooce/zooce-color-scheme/blob/master/vscode/previews/python_preview_med.png)
 
 ### Go
 
-![go_med](./previews/go_preview_med.png)
+![go_med](https://github.com/Zooce/zooce-color-scheme/blob/master/vscode/previews/go_preview_med.png)
 
 ### C++
 
-![cpp_med](./previews/cpp_preview_med.png)
+![cpp_med](https://github.com/Zooce/zooce-color-scheme/blob/master/vscode/previews/cpp_preview_med.png)
 
 ## Light Theme (coming soon)
