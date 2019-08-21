@@ -9,8 +9,8 @@
 	},
 	"categories": [
 		"Themes"
-    ],
-    "icon": "images/ZooceLogo.png",
+	],
+	"icon": "./images/ZooceLogo.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Zooce/zooce-color-scheme/tree/master/vscode"
