@@ -23,3 +23,16 @@ To learn more about scopes and how they're used, check out the [theme](https://c
 ## Install your extension
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 * To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+
+# My notes
+
+## Publish
+```
+$ vsce publish <major|minor|patch>
+```
+
+## Add new README preview
+1. Take screenshot
+2. Open screenshot in Pixelmator
+3. "Export for web..."
+4. Choose better compression algorithm, 8-bit color, and keep transparency

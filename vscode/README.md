@@ -8,36 +8,36 @@ My goal is to have a dark theme, a "medium" theme, and a light theme.
 
 ### Rust
 
-![rust_dark](previews/rust_preview_dark_small.png)
+![rust_dark](images/rust_preview_dark_small.png)
 
 ### Python
 
-![python_dark](previews/python_preview_dark_small.png)
+![python_dark](images/python_preview_dark_small.png)
 
 ### Go
 
-![go_dark](previews/go_preview_dark_small.png)
+![go_dark](images/go_preview_dark_small.png)
 
 ### C++
 
-![cpp_dark](previews/cpp_preview_dark_small.png)
+![cpp_dark](images/cpp_preview_dark_small.png)
 
 ## "Medium" Theme
 
 ### Rust
 
-![rust_med](previews/rust_preview_med_small.png)
+![rust_med](images/rust_preview_med_small.png)
 
 ### Python
 
-![python_med](previews/python_preview_med_small.png)
+![python_med](images/python_preview_med_small.png)
 
 ### Go
 
-![go_med](previews/go_preview_med_small.png)
+![go_med](images/go_preview_med_small.png)
 
 ### C++
 
-![cpp_med](previews/cpp_preview_med_small.png)
+![cpp_med](images/cpp_preview_med_small.png)
 
 ## Light Theme (coming soon)

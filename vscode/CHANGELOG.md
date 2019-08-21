@@ -6,8 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.1.2]
 ### Added
 - Added "small" versions of preview images
+- Added an icon
 ### Changed
-- Updated vscode README with "small" preview URLs
+- Updated README with "small" preview URLs
+- Changed name of "previews" directory to "images"
+- Updated quickstart with some notes
 ### Removed
 - Removed preview images from Git LFS
 
