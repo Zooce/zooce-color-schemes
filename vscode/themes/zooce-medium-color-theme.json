@@ -26,7 +26,7 @@
         "activityBar.background": "#727272",
         "activityBar.foreground": "#000000",
         "activityBar.border": "#b4b4b4",
-        "activityBarBadge.background": "#d6d6d6",
+        "activityBarBadge.background": "#e48cb6",
         "activityBarBadge.foreground": "#000000",
 
         // Side Bar
@@ -52,7 +52,11 @@
         // Git
         "editorGutter.addedBackground": "#00ff64",
         "editorGutter.modifiedBackground": "#fdbe00",
-        "editorGutter.deletedBackground": "#ff0000"
+        "editorGutter.deletedBackground": "#ff0000",
+
+        // General
+        "badge.background": "#e48cb6",
+        "badge.foreground": "#000000"
     },
     "tokenColors": [
         // Punctuation

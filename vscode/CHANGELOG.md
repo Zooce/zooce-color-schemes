@@ -3,6 +3,15 @@ All notable changes to the "zooce" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.4]
+### Changed
+- Fixed badge colors for the side bar
+- Fixed CHANGELOG to include 1.1.3
+
+## [1.1.3]
+### Changed
+- Tried to fix preview URLs (it didn't work)
+
 ## [1.1.2]
 ### Added
 - Added "small" versions of preview images
