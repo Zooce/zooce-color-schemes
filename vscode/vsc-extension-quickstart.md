@@ -36,3 +36,7 @@ $ vsce publish <major|minor|patch>
 2. Open screenshot in Pixelmator
 3. "Export for web..."
 4. Choose better compression algorithm, 8-bit color, and keep transparency
+
+## Access Token
+1. Login to https://dev.azure.com/danarjohnson with GitHub
+2. Follow instructions here: https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token

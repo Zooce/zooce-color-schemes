@@ -3,6 +3,15 @@ All notable changes to the "zooce" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.5]
+### Added
+- Personal Access Token generation instructions
+### Changed
+- Another attempt to fix preview images
+- Updated "Medium" preview images
+### Removed
+- Removed old "large" preview images
+
 ## [1.1.4]
 ### Changed
 - Fixed badge colors for the side bar
