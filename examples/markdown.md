@@ -9,6 +9,7 @@ you can write text [with links](http://example.com) inline or [link references][
 
 * one _thing_ has *em* phasis
 * two __things__ are **bold**
+    1. hello
 
 [1]: http://example.com
 

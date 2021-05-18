@@ -1,22 +1,22 @@
-/* NOTE:
+//! NOTE:
+//!
+//! Maybe have the game state contain a bunch of vectors of all the "components":
+//!
+//! struct GameState {
+//!     physics_components: Vec<Option<PhysicsComponent>>,
+//!     humanoid_animation_components: Vec<Option<HumanoidAnimationComponent>>,
+//!     heath_components: Vec<Option<HealthComponent>>,
+//!     player_components: Vec<Option<PlayerComponent>>
+//! }
+//! 
+//! check into `slotmap` crate - generational indexing
+//! 
+//! also checkout `anymap` crate
+//! 
+//! also checkout `specs` create - ecs
+//! 
+//! what is the `actor model`
 
-Maybe have the game state contain a bunch of vectors of all the "components":
-
-struct GameState {
-    physics_components: Vec<Option<PhysicsComponent>>,
-    humanoid_animation_components: Vec<Option<HumanoidAnimationComponent>>,
-    heath_components: Vec<Option<HealthComponent>>,
-    player_components: Vec<Option<PlayerComponent>>
-}
-
-check into `slotmap` crate - generational indexing
-
-also checkout `anymap` crate
-
-also checkout `specs` create - ecs
-
-what is the `actor model`
-*/
 const SCREEN_WIDTH: i32 = 480;
 const SCREEN_HEIGHT: i32 = 640;
 
@@ -35,11 +35,11 @@ const KEY_S: i32 = consts::KEY_S as i32;
 const KEY_A: i32 = consts::KEY_A as i32;
 const KEY_D: i32 = consts::KEY_D as i32;
 
-trait<'a> Cool {
-    fn awesome(&'a str) -> &'a str;
+trait Cool {
+    fn awesome() -> String;
 }
 
-struct InputState {
+struct InputState<'a> {
     up: bool,
     down: bool,
     left: bool,
@@ -48,10 +48,11 @@ struct InputState {
     down_time: time::Instant,
     left_time: time::Instant,
     right_time: time::Instant,
+    name: &'a str,
 }
 
-impl InputState {
-    fn new() -> InputState {
+impl<'a> InputState<'a> {
+    fn new(name: &'a str) -> InputState {
         let n = time::Instant::now();
         InputState {
             up: false,
@@ -62,6 +63,7 @@ impl InputState {
             down_time: n.clone(),
             left_time: n.clone(),
             right_time: n.clone(),
+            name,
         }
     }
 }
@@ -166,7 +168,7 @@ impl Moveable for Spaceship {
     }
 }
 
-fn main() {
+pub fn main() {
 
     let rl = raylib::init()
         .size(SCREEN_WIDTH, SCREEN_HEIGHT)

@@ -2,9 +2,9 @@
 #ifndef HEADER_GUARD_HPP
 #define HEADER_GUARD_HPP
 
-#import <iostream>
-#import <string>
-#import "MyObject.hpp"
+#include <iostream>
+#include <string>
+#include "MyObject.hpp"
 
 #ifdef COMPARE
     #undef COMPARE
