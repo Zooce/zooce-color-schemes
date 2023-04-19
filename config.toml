@@ -1,0 +1,87 @@
+[palette]
+light = "#f2f2f2"
+dim = "#8a8a8a"
+dark = "#282828"
+darker = "#000000"
+keyword = "#9857d9"
+storage = "#6291d9"
+function = "#5cccc6"
+type = "#75e67d"
+string = "#8eb1e5"
+constant = "#d0ff00"
+comment = "#e6509b"
+warning = "#fdbe00"
+error = "#e83841"
+ok = "#85db18"
+
+#..........Sublime Text
+
+[sublime]
+todo = 0
+
+#..........VS Code
+[vs_code]
+type = "Dark"
+name = "zooce-dark"
+
+[vs_code.colors]
+light = [
+    "editor.foreground",
+]
+dark = [
+    "editor.background",
+]
+darker = [
+    "editor.lineHighlightBacground",
+    "editorGutter.background",
+]
+
+[vs_code.tokenColors]
+dim = [
+    "meta.attribute",
+    "entity.name.function.decorator",
+    "entity.name.function.preprocessor",
+    "punctuation.definition.annotation",
+    "storage.type.annotation",
+    "string.quoted.docstring",
+]
+keyword = [
+    "keyword",
+    "punctuation.separator.namespace",
+    "entity.name.tag",
+]
+storage = [
+    "storage",
+    "support.type",
+]
+function = [
+    "entity.name.function",
+    "meta.function-call",
+    "support.function",
+    "entity.other.attribute-name",
+]
+type = [
+
+]
+string = [
+    "string"
+]
+constant = [
+    "constant.numeric",
+    "constant.language",
+    "constant.character",
+    "constant.other",
+]
+comment = [
+    "comment.line",
+    "variable.language", # like `self`
+]
+
+#..........Vim
+
+[vim.colors]
+dim = [
+    "Comment",
+    "String",
+    "Identifier",
+]
