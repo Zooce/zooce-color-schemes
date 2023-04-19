@@ -8,13 +8,13 @@
 //!     heath_components: Vec<Option<HealthComponent>>,
 //!     player_components: Vec<Option<PlayerComponent>>
 //! }
-//! 
+//!
 //! check into `slotmap` crate - generational indexing
-//! 
+//!
 //! also checkout `anymap` crate
-//! 
+//!
 //! also checkout `specs` create - ecs
-//! 
+//!
 //! what is the `actor model`
 
 const SCREEN_WIDTH: i32 = 480;
@@ -39,6 +39,7 @@ trait Cool {
     fn awesome() -> String;
 }
 
+#[derive(Default)]
 struct InputState<'a> {
     up: bool,
     down: bool,
