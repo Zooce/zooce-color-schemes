@@ -30,7 +30,7 @@ def gen_vs_code(config):
         "tokenColors": [{ "scope": scope, "settings": { "foreground": palette[color] }} for color,scopes in vs_code["tokenColors"].items() for scope in scopes],
     }
     try:
-        with open(vs_code["file"]) as f:
+        with open(vs_code["file"], "w") as f:
             json.dump(color_theme, f, indent=2)
     except KeyError:
         print("\n[[=== VS Code ===]]")
