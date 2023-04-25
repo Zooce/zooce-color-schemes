@@ -98,11 +98,11 @@ test "switch on tagged union" {
 
 // Top-level declarations are order-independent:
 const print = std.debug.print;
-const std = @import("std");
+const std = @import("std"); // error: redeclaration of `std`
 const os = std.os;
 const assert = std.debug.assert;
 
-pub fn main() void {
+pub fn main() void { // error: redeclaration of `main`
     // integers
     const one_plus_one: i32 = 1 + 1;
     print("1 + 1 = {}\n", .{one_plus_one});
@@ -153,11 +153,11 @@ pub fn main() void {
 
 pub fn syscall3(number: usize, arg1: usize, arg2: usize, arg3: usize) usize {
     return asm volatile ("syscall"
-        : [ret] "={rax}" (-> usize)
+        : [ret] "={rax}" (-> usize),
         : [number] "{rax}" (number),
           [arg1] "{rdi}" (arg1),
           [arg2] "{rsi}" (arg2),
-          [arg3] "{rdx}" (arg3)
+          [arg3] "{rdx}" (arg3),
         : "rcx", "r11"
     );
 }

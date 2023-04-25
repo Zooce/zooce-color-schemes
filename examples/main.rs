@@ -52,6 +52,11 @@ struct InputState<'a> {
     name: &'a str,
 }
 
+enum JustBecause {
+    Oh(String),
+    Cool,
+}
+
 impl<'a> InputState<'a> {
     fn new(name: &'a str) -> InputState {
         let n = time::Instant::now();
