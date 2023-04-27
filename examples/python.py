@@ -32,7 +32,7 @@ message = '''interpreter
 ... prompt'''
 
 if __name__ == "__main__":
-    print(f'this is {4 + 5} and {6 * 7} and {12 % 34}') # who doesn't love f-strings?
+    print(f'this is {4 + 5} and {message} and {12 % 34}') # who doesn't love f-strings?
     cl = SomeClass()
     c = cl.cats(arg=4)
     sc = sorted(c.items(), key=lambda item: item[1], reverse=True)

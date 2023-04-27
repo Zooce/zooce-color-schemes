@@ -17,7 +17,9 @@
   },
   "tokenColors": [
     {
-      "scope": [],
+      "scope": [
+        "entity.name.type.rust"
+      ],
       "settings": {
         "foreground": "#f2f2f2"
       }
@@ -26,11 +28,6 @@
       "scope": [
         "constant.character.format.placeholder.other.python",
         "entity.name.function.decorator.python",
-        "keyword.operator.arithmetic.python",
-        "keyword.operator.assignment.python",
-        "keyword.operator.comparison.python",
-        "keyword.operator.logical.python",
-        "keyword.operator.python",
         "punctuation.definition.arguments.begin.python",
         "punctuation.definition.arguments.end.python",
         "punctuation.definition.dict.begin.python",
@@ -52,7 +49,23 @@
         "punctuation.separator.dict.python",
         "punctuation.separator.element.python",
         "punctuation.separator.parameters.python",
-        "punctuation.separator.period.python"
+        "punctuation.separator.period.python",
+        "keyword.operator.namespace.rust",
+        "punctuation.brackets.curly.rust",
+        "punctuation.brackets.round.rust",
+        "punctuation.brackets.angle.rust",
+        "punctuation.brackets.square.rust",
+        "keyword.operator.key-value.rust",
+        "punctuation.comma.rust",
+        "punctuation.semi.rust",
+        "keyword.operator.access.dot.rust",
+        "punctuation.definition.string.rust",
+        "punctuation.definition.lifetime.rust",
+        "entity.name.type.lifetime.rust",
+        "punctuation.brackets.attribute.rust",
+        "punctuation.definition.attribute.rust",
+        "keyword.operator.arrow.skinny.rust",
+        "keyword.operator.arrow.fat.rust"
       ],
       "settings": {
         "foreground": "#A6A6A6"
@@ -60,15 +73,37 @@
     },
     {
       "scope": [
+        "keyword.control.flow.python",
         "keyword.control.import.python",
-        "keyword.control.flow.python"
+        "keyword.operator.arithmetic.python",
+        "keyword.operator.assignment.python",
+        "keyword.operator.comparison.python",
+        "keyword.operator.logical.python",
+        "keyword.operator.python",
+        "storage.type.function.python",
+        "keyword.control.rust",
+        "keyword.operator.assignment.equal.rust",
+        "keyword.operator.assignment.rust",
+        "keyword.operator.logical.rust",
+        "keyword.other.fn.rust",
+        "keyword.other.rust",
+        "keyword.operator.borrow.and.rust",
+        "keyword.operator.comparison.rust",
+        "keyword.operator.dereference.rust",
+        "keyword.operator.range.rust",
+        "keyword.operator.math.rust"
       ],
       "settings": {
         "foreground": "#9D62D9"
       }
     },
     {
-      "scope": [],
+      "scope": [
+        "entity.name.type.numeric.rust",
+        "entity.name.type.primitive.rust",
+        "entity.name.type.option.rust",
+        "entity.name.type.result.rust"
+      ],
       "settings": {
         "foreground": "#BA8EE6"
       }
@@ -76,9 +111,10 @@
     {
       "scope": [
         "storage.type.class.python",
-        "storage.type.function.python",
+        "storage.type.string.python",
         "storage.type.function.lambda.python",
-        "storage.type.string.python"
+        "storage.type.rust",
+        "storage.modifier.mut.rust"
       ],
       "settings": {
         "foreground": "#6291d9"
@@ -89,7 +125,8 @@
         "string.quoted.docstring.multi.python",
         "string.quoted.docstring.raw.multi.python",
         "string.quoted.multi.python",
-        "string.quoted.single.python"
+        "string.quoted.single.python",
+        "string.quoted.double.rust"
       ],
       "settings": {
         "foreground": "#8eb1e5"
@@ -99,7 +136,9 @@
       "scope": [
         "entity.name.function.python",
         "meta.function-call.generic.python",
-        "support.function.builtin.python"
+        "support.function.builtin.python",
+        "entity.name.function.rust",
+        "meta.attribute.rust"
       ],
       "settings": {
         "foreground": "#5cccc6"
@@ -110,7 +149,10 @@
         "constant.character.escape.python",
         "constant.character.format.placeholder.other.python",
         "variable.language.special.self.python",
-        "variable.parameter.function.language.special.self.python"
+        "variable.parameter.function.language.special.self.python",
+        "entity.name.function.macro.rust",
+        "variable.language.self.rust",
+        "constant.character.escape.rust"
       ],
       "settings": {
         "foreground": "#75e67d"
@@ -120,7 +162,9 @@
       "scope": [
         "constant.language.python",
         "constant.numeric.float.python",
-        "constant.numeric.dec.python"
+        "constant.numeric.dec.python",
+        "constant.language.bool.rust",
+        "constant.numeric.decimal.rust"
       ],
       "settings": {
         "foreground": "#d0ff00"
@@ -128,7 +172,9 @@
     },
     {
       "scope": [
-        "comment.line.number-sign.python"
+        "comment.line.number-sign.python",
+        "comment.line.double-slash.rust",
+        "comment.line.documentation.rust"
       ],
       "settings": {
         "foreground": "#e6509b"

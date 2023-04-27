@@ -29,6 +29,9 @@ _neon_yellow = [
 
 [tokenColors]
 _white = [
+    # rust
+    "entity.name.type.rust",
+
     # "constant.other.caps",
     # "variable",
     # "support.type.property-name",
@@ -38,11 +41,6 @@ _gray = [
     # python
     "constant.character.format.placeholder.other.python",
     "entity.name.function.decorator.python",
-    "keyword.operator.arithmetic.python",
-    "keyword.operator.assignment.python",
-    "keyword.operator.comparison.python",
-    "keyword.operator.logical.python",
-    "keyword.operator.python",
     "punctuation.definition.arguments.begin.python",
     "punctuation.definition.arguments.end.python",
     "punctuation.definition.dict.begin.python",
@@ -65,6 +63,24 @@ _gray = [
     "punctuation.separator.element.python",
     "punctuation.separator.parameters.python",
     "punctuation.separator.period.python",
+
+    # rust
+    "keyword.operator.namespace.rust",
+    "punctuation.brackets.curly.rust",
+    "punctuation.brackets.round.rust",
+    "punctuation.brackets.angle.rust",
+    "punctuation.brackets.square.rust",
+    "keyword.operator.key-value.rust",
+    "punctuation.comma.rust",
+    "punctuation.semi.rust",
+    "keyword.operator.access.dot.rust",
+    "punctuation.definition.string.rust",
+    "punctuation.definition.lifetime.rust",
+    "entity.name.type.lifetime.rust",
+    "punctuation.brackets.attribute.rust",
+    "punctuation.definition.attribute.rust",
+    "keyword.operator.arrow.skinny.rust",
+    "keyword.operator.arrow.fat.rust",
 
     # "comment.block",
     # "constant.character.format",
@@ -118,8 +134,27 @@ _gray = [
 ]
 _purple = [
     # python
-    "keyword.control.import.python",
     "keyword.control.flow.python",
+    "keyword.control.import.python",
+    "keyword.operator.arithmetic.python",
+    "keyword.operator.assignment.python",
+    "keyword.operator.comparison.python",
+    "keyword.operator.logical.python",
+    "keyword.operator.python",
+    "storage.type.function.python",
+
+    # rust
+    "keyword.control.rust",
+    "keyword.operator.assignment.equal.rust",
+    "keyword.operator.assignment.rust",
+    "keyword.operator.logical.rust",
+    "keyword.other.fn.rust",
+    "keyword.other.rust",
+    "keyword.operator.borrow.and.rust",
+    "keyword.operator.comparison.rust",
+    "keyword.operator.dereference.rust",
+    "keyword.operator.range.rust",
+    "keyword.operator.math.rust",
 
     # "entity.name.tag",
     # "keyword",
@@ -130,14 +165,23 @@ _purple = [
     # "punctuation.separator.namespace",
 ]
 _light_purple = [
+    # rust
+    "entity.name.type.numeric.rust",
+    "entity.name.type.primitive.rust",
+    "entity.name.type.option.rust",
+    "entity.name.type.result.rust",
+
     # "entity.name.type",
 ]
 _blue = [
     # python
     "storage.type.class.python",
-    "storage.type.function.python",
-    "storage.type.function.lambda.python",
     "storage.type.string.python",
+    "storage.type.function.lambda.python",
+
+    # rust
+    "storage.type.rust",
+    "storage.modifier.mut.rust",
 
     # "keyword.control.svelte",
     # "punctuation.definition.keyword.svelte",
@@ -153,6 +197,9 @@ _light_blue = [
     "string.quoted.multi.python",
     "string.quoted.single.python",
 
+    # rust
+    "string.quoted.double.rust",
+
     # "string",
     # "support.constant.font-name",
     # "support.constant.property-value",
@@ -164,6 +211,10 @@ _cyan = [
     "entity.name.function.python",
     "meta.function-call.generic.python",
     "support.function.builtin.python",
+
+    # rust
+    "entity.name.function.rust",
+    "meta.attribute.rust",
 
     # "entity.name.function",
     # "entity.other.attribute-name",
@@ -179,6 +230,11 @@ _neon_green = [
     "variable.language.special.self.python",
     "variable.parameter.function.language.special.self.python",
 
+    # rust
+    "entity.name.function.macro.rust",
+    "variable.language.self.rust",
+    "constant.character.escape.rust",
+
     # "variable.language", # like `self`
     # "comment.line",
     # "comment.block.html",
@@ -192,6 +248,10 @@ _neon_yellow = [
     "constant.numeric.float.python",
     "constant.numeric.dec.python",
 
+    # rust
+    "constant.language.bool.rust",
+    "constant.numeric.decimal.rust",
+
     # "constant.numeric",
     # "constant.language",
     # "constant.character",
@@ -202,6 +262,10 @@ _neon_yellow = [
 _hot_pink = [
     # python
     "comment.line.number-sign.python",
+
+    # rust
+    "comment.line.double-slash.rust",
+    "comment.line.documentation.rust",
 
     # "variable.language", # like `self`
     # "comment.line",

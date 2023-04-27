@@ -58,6 +58,12 @@ enum JustBecause {
 }
 
 impl<'a> InputState<'a> {
+    /// Create a new [`InputState`].
+    ///
+    /// Example:
+    /// ```rust
+    /// let input_state = InputState::new("Hello");
+    /// ```
     fn new(name: &'a str) -> InputState {
         let n = time::Instant::now();
         InputState {
@@ -82,8 +88,8 @@ struct Spaceship {
 }
 
 impl Spaceship {
-    fn new(pos: Vector2, img_idx: usize) -> Spaceship {
-        Spaceship{
+    fn new(pos: Vector2, img_idx: usize) -> Self {
+        Self{
             pos,
             speed: 1.0,
             img_idx,
@@ -211,7 +217,7 @@ pub fn main() {
         rl.begin_drawing();
 
         rl.clear_background(raylib::Color::WHITE);
-        rl.draw_text("Hello, world!", 12, 12, 20, raylib::Color::BLACK);
+        rl.draw_text("Hello, world!\n", 12, 12, 20, raylib::Color::BLACK);
         s.draw(&rl, &textures);
 
         rl.end_drawing();
