@@ -1,0 +1,221 @@
+type = "Dark"
+name = "zooce-dark"
+file = "./vscode/themes/zooce-dark-3-color-theme.json"
+
+[colors]
+_white = [
+    "editor.foreground",
+]
+_black = [
+    "editor.background",
+]
+_blacker = [
+    "editor.lineHighlightBackground",
+    "editorGutter.background",
+]
+_dim_blue = [
+    "editor.findMatchHighlightBackground",
+    "editor.hoverHighlightBackground",
+    "editor.wordHighlightBackground",
+]
+_dimmer_blue = [
+    "editor.selectionHighlightBackground",
+    "editor.symbolHighlightBackground",
+]
+_neon_yellow = [
+    "editorBracketMatch.border",
+    "editor.findMatchBorder",
+]
+
+[tokenColors]
+_white = [
+    # "constant.other.caps",
+    # "variable",
+    # "support.type.property-name",
+    # "entity.name.type",
+]
+_gray = [
+    # python
+    "constant.character.format.placeholder.other.python",
+    "entity.name.function.decorator.python",
+    "keyword.operator.arithmetic.python",
+    "keyword.operator.assignment.python",
+    "keyword.operator.comparison.python",
+    "keyword.operator.logical.python",
+    "keyword.operator.python",
+    "punctuation.definition.arguments.begin.python",
+    "punctuation.definition.arguments.end.python",
+    "punctuation.definition.dict.begin.python",
+    "punctuation.definition.dict.end.python",
+    "punctuation.definition.list.begin.python",
+    "punctuation.definition.list.end.python",
+    "punctuation.definition.parameters.begin.python",
+    "punctuation.definition.parameters.end.python",
+    "punctuation.definition.string.begin.python",
+    "punctuation.definition.string.end.python",
+    "punctuation.parenthesis.begin.python",
+    "punctuation.parenthesis.end.python",
+    "punctuation.section.class.begin.python",
+    "punctuation.section.function.begin.python",
+    "punctuation.section.function.lambda.begin.python",
+    "punctuation.separator.annotation.python",
+    "punctuation.separator.arguments.python",
+    "punctuation.separator.colon.python",
+    "punctuation.separator.dict.python",
+    "punctuation.separator.element.python",
+    "punctuation.separator.parameters.python",
+    "punctuation.separator.period.python",
+
+    # "comment.block",
+    # "constant.character.format",
+    # "entity.name.function.decorator",
+    # "keyword.operator",
+    # "markup.fenced_code",
+    # "meta.attribute",
+    # "meta.brace",
+    # "meta.diff",
+    # "meta.embedded.diff",
+    # "meta.separator",
+    # "meta.tag",
+    # "meta.tag.preprocessor",
+    # "punctuation.accessor",
+    # "punctuation.brackets",
+    # "punctuation.comma",
+    # "punctuation.decorator",
+    # "punctuation.definition.annotation",
+    # "punctuation.definition.arguments",
+    # "punctuation.definition.begin",
+    # "punctuation.definition.block",
+    # "punctuation.definition.bold",
+    # "punctuation.definition.constant",
+    # "punctuation.definition.dict",
+    # "punctuation.definition.end",
+    # "punctuation.definition.italic",
+    # "punctuation.definition.link",
+    # "punctuation.definition.list",
+    # "punctuation.definition.metadata",
+    # "punctuation.definition.parameters",
+    # "punctuation.definition.quote",
+    # "punctuation.definition.raw",
+    # "punctuation.definition.string",
+    # "punctuation.definition.tag",
+    # "punctuation.definition.template-expression",
+    # "punctuation.parenthesis",
+    # "punctuation.section",
+    # "punctuation.semi",
+    # "punctuation.separator",
+    # "punctuation.terminator",
+    # "punctuation.other.period",
+    # "punctuation.other.comma",
+    # "punctuation.definition.imports",
+    # "punctuation.definition.annotation-arguments",
+    # "punctuation.definition.entity",
+    # "punctuation.definition.keyValuePair.toml",
+    # "punctuation.definition.inlinetable.toml",
+    # "punctuation.definition.array.toml",
+    # "storage.type.annotation",
+    # "string.quoted.docstring",
+]
+_purple = [
+    # python
+    "keyword.control.import.python",
+    "keyword.control.flow.python",
+
+    # "entity.name.tag",
+    # "keyword",
+    # "keyword.operator.delete",
+    # "keyword.operator.new",
+    # "markup.heading",
+    # "punctuation.definition.keyword",
+    # "punctuation.separator.namespace",
+]
+_light_purple = [
+    # "entity.name.type",
+]
+_blue = [
+    # python
+    "storage.type.class.python",
+    "storage.type.function.python",
+    "storage.type.function.lambda.python",
+    "storage.type.string.python",
+
+    # "keyword.control.svelte",
+    # "punctuation.definition.keyword.svelte",
+    # "storage",
+    # "support.type",
+    # "support.class",
+    # "constant.other.database-name",
+]
+_light_blue = [
+    # python
+    "string.quoted.docstring.multi.python",
+    "string.quoted.docstring.raw.multi.python",
+    "string.quoted.multi.python",
+    "string.quoted.single.python",
+
+    # "string",
+    # "support.constant.font-name",
+    # "support.constant.property-value",
+    # "constant.other.table-name",
+    # "entity.name.type",
+]
+_cyan = [
+    # python
+    "entity.name.function.python",
+    "meta.function-call.generic.python",
+    "support.function.builtin.python",
+
+    # "entity.name.function",
+    # "entity.other.attribute-name",
+    # "meta.function-call",
+    # "support.function",
+    # "entity.name.function.preprocessor",
+    # "entity.name.section",
+]
+_neon_green = [
+    # python
+    "constant.character.escape.python",
+    "constant.character.format.placeholder.other.python",
+    "variable.language.special.self.python",
+    "variable.parameter.function.language.special.self.python",
+
+    # "variable.language", # like `self`
+    # "comment.line",
+    # "comment.block.html",
+    # "comment.block.xml",
+    # "markup.raw",
+    # "markup.inline",
+]
+_neon_yellow = [
+    # python
+    "constant.language.python",
+    "constant.numeric.float.python",
+    "constant.numeric.dec.python",
+
+    # "constant.numeric",
+    # "constant.language",
+    # "constant.character",
+    # "constant.other",
+    # "support.constant",
+    # "keyword.constant",
+]
+_hot_pink = [
+    # python
+    "comment.line.number-sign.python",
+
+    # "variable.language", # like `self`
+    # "comment.line",
+    # "comment.block.html",
+    # "comment.block.xml",
+]
+_orange = [
+    # "markup.changed",
+]
+_red = [
+    # "markup.deleted",
+]
+_green = [
+    # "markup.inserted",
+]
+
+

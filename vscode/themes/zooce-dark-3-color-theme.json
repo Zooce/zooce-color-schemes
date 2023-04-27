@@ -1,0 +1,156 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "zooce-dark",
+  "type": "Dark",
+  "colors": {
+    "editor.foreground": "#f2f2f2",
+    "editor.background": "#212121",
+    "editor.lineHighlightBackground": "#000000",
+    "editorGutter.background": "#000000",
+    "editor.findMatchHighlightBackground": "#264f78",
+    "editor.hoverHighlightBackground": "#264f78",
+    "editor.wordHighlightBackground": "#264f78",
+    "editor.selectionHighlightBackground": "#162d45",
+    "editor.symbolHighlightBackground": "#162d45",
+    "editorBracketMatch.border": "#d0ff00",
+    "editor.findMatchBorder": "#d0ff00"
+  },
+  "tokenColors": [
+    {
+      "scope": [],
+      "settings": {
+        "foreground": "#f2f2f2"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.format.placeholder.other.python",
+        "entity.name.function.decorator.python",
+        "keyword.operator.arithmetic.python",
+        "keyword.operator.assignment.python",
+        "keyword.operator.comparison.python",
+        "keyword.operator.logical.python",
+        "keyword.operator.python",
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python",
+        "punctuation.definition.dict.begin.python",
+        "punctuation.definition.dict.end.python",
+        "punctuation.definition.list.begin.python",
+        "punctuation.definition.list.end.python",
+        "punctuation.definition.parameters.begin.python",
+        "punctuation.definition.parameters.end.python",
+        "punctuation.definition.string.begin.python",
+        "punctuation.definition.string.end.python",
+        "punctuation.parenthesis.begin.python",
+        "punctuation.parenthesis.end.python",
+        "punctuation.section.class.begin.python",
+        "punctuation.section.function.begin.python",
+        "punctuation.section.function.lambda.begin.python",
+        "punctuation.separator.annotation.python",
+        "punctuation.separator.arguments.python",
+        "punctuation.separator.colon.python",
+        "punctuation.separator.dict.python",
+        "punctuation.separator.element.python",
+        "punctuation.separator.parameters.python",
+        "punctuation.separator.period.python"
+      ],
+      "settings": {
+        "foreground": "#A6A6A6"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.import.python",
+        "keyword.control.flow.python"
+      ],
+      "settings": {
+        "foreground": "#9D62D9"
+      }
+    },
+    {
+      "scope": [],
+      "settings": {
+        "foreground": "#BA8EE6"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.class.python",
+        "storage.type.function.python",
+        "storage.type.function.lambda.python",
+        "storage.type.string.python"
+      ],
+      "settings": {
+        "foreground": "#6291d9"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.docstring.multi.python",
+        "string.quoted.docstring.raw.multi.python",
+        "string.quoted.multi.python",
+        "string.quoted.single.python"
+      ],
+      "settings": {
+        "foreground": "#8eb1e5"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.python",
+        "meta.function-call.generic.python",
+        "support.function.builtin.python"
+      ],
+      "settings": {
+        "foreground": "#5cccc6"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape.python",
+        "constant.character.format.placeholder.other.python",
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#75e67d"
+      }
+    },
+    {
+      "scope": [
+        "constant.language.python",
+        "constant.numeric.float.python",
+        "constant.numeric.dec.python"
+      ],
+      "settings": {
+        "foreground": "#d0ff00"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.number-sign.python"
+      ],
+      "settings": {
+        "foreground": "#e6509b"
+      }
+    },
+    {
+      "scope": [],
+      "settings": {
+        "foreground": "#fdbe00"
+      }
+    },
+    {
+      "scope": [],
+      "settings": {
+        "foreground": "#e83841"
+      }
+    },
+    {
+      "scope": [],
+      "settings": {
+        "foreground": "#85db18"
+      }
+    }
+  ]
+}
