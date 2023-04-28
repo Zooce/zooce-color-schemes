@@ -165,12 +165,6 @@ _purple = [
     # "punctuation.separator.namespace",
 ]
 _light_purple = [
-    # rust
-    "entity.name.type.numeric.rust",
-    "entity.name.type.primitive.rust",
-    "entity.name.type.option.rust",
-    "entity.name.type.result.rust",
-
     # "entity.name.type",
 ]
 _blue = [
@@ -182,6 +176,10 @@ _blue = [
     # rust
     "storage.type.rust",
     "storage.modifier.mut.rust",
+    "entity.name.type.numeric.rust",
+    "entity.name.type.primitive.rust",
+    "entity.name.type.option.rust",
+    "entity.name.type.result.rust",
 
     # "keyword.control.svelte",
     # "punctuation.definition.keyword.svelte",
