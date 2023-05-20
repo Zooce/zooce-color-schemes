@@ -132,7 +132,7 @@ _gray = [
     # "storage.type.annotation",
     # "string.quoted.docstring",
 ]
-_purple = [
+_keywords = [
     # python
     "keyword.control.flow.python",
     "keyword.control.import.python",
@@ -167,7 +167,7 @@ _purple = [
 _light_purple = [
     # "entity.name.type",
 ]
-_blue = [
+_storage = [
     # python
     "storage.type.class.python",
     "storage.type.string.python",
@@ -188,7 +188,7 @@ _blue = [
     # "support.class",
     # "constant.other.database-name",
 ]
-_light_blue = [
+_strings = [
     # python
     "string.quoted.docstring.multi.python",
     "string.quoted.docstring.raw.multi.python",
@@ -204,7 +204,7 @@ _light_blue = [
     # "constant.other.table-name",
     # "entity.name.type",
 ]
-_cyan = [
+_functions = [
     # python
     "entity.name.function.python",
     "meta.function-call.generic.python",
@@ -221,17 +221,22 @@ _cyan = [
     # "entity.name.function.preprocessor",
     # "entity.name.section",
 ]
-_neon_green = [
+_constants = [
     # python
     "constant.character.escape.python",
     "constant.character.format.placeholder.other.python",
     "variable.language.special.self.python",
     "variable.parameter.function.language.special.self.python",
+    "constant.language.python",
+    "constant.numeric.float.python",
+    "constant.numeric.dec.python",
 
     # rust
     "entity.name.function.macro.rust",
     "variable.language.self.rust",
     "constant.character.escape.rust",
+    "constant.language.bool.rust",
+    "constant.numeric.decimal.rust",
 
     # "variable.language", # like `self`
     # "comment.line",
@@ -242,13 +247,13 @@ _neon_green = [
 ]
 _neon_yellow = [
     # python
-    "constant.language.python",
-    "constant.numeric.float.python",
-    "constant.numeric.dec.python",
+    # "constant.language.python",
+    # "constant.numeric.float.python",
+    # "constant.numeric.dec.python",
 
     # rust
-    "constant.language.bool.rust",
-    "constant.numeric.decimal.rust",
+    # "constant.language.bool.rust",
+    # "constant.numeric.decimal.rust",
 
     # "constant.numeric",
     # "constant.language",
@@ -257,7 +262,7 @@ _neon_yellow = [
     # "support.constant",
     # "keyword.constant",
 ]
-_hot_pink = [
+_comments = [
     # python
     "comment.line.number-sign.python",
 

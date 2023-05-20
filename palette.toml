@@ -2,16 +2,36 @@ _white = "#e6e6e6"
 _gray = "#999999"
 _black = "#212121"
 _blacker = "#000000"
-_purple = "#9D62D9"
+_purple = "#477acc" # 9D62D9 CC7570
 _light_purple = "#BA8EE6" # BA8EE6 B898D9
-_blue = "#6291d9"
-_light_blue = "#8eb1e5"
+_blue = "#a2cc66" # 6291d9 669BCC
+_light_blue = "#a2cc66" # 8eb1e5
 _dim_blue = "#264f78"
 _dimmer_blue = "#162d45"
-_cyan = "#5cccc6"
-_neon_green = "#75e67d"
-_neon_yellow = "#d0ff00"
-_hot_pink = "#e6509b"
+_cyan = "#cc9947" # 5cccc6 95CC85
+_neon_green = "#CC9A47" # 75e67d
+_neon_yellow = "#52CC81" # d0ff00
+_hot_pink = "#cc528b" # e6509b CC66BB
 _orange = "#fdbe00"
 _red = "#e83841"
 _green = "#85db18"
+
+# main categories:
+# - keywords (fn, if, operators, modifiers)
+_keywords = "#cc6674" # good
+# - storage (let, mut, const, var, struct, enum, builtin types)
+_storage = "#cc6674" # "#a070c2" 
+# - functions
+_functions = "#cc9947" # good
+# - strings
+_strings = "#a7cc66" # good
+
+# standout categories:
+# - comments
+_comments = "#477acc" # good
+# - constants
+_constants = "#66ccbe"
+
+
+_other1 = "#52cc81" # => + 90 deg from _keywords
+_other2 = "#cc528b" # => + 180 deg from _other1

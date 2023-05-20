@@ -12,8 +12,8 @@
     "editor.wordHighlightBackground": "#264f78",
     "editor.selectionHighlightBackground": "#162d45",
     "editor.symbolHighlightBackground": "#162d45",
-    "editorBracketMatch.border": "#d0ff00",
-    "editor.findMatchBorder": "#d0ff00"
+    "editorBracketMatch.border": "#52CC81",
+    "editor.findMatchBorder": "#52CC81"
   },
   "tokenColors": [
     {
@@ -94,7 +94,7 @@
         "keyword.operator.math.rust"
       ],
       "settings": {
-        "foreground": "#9D62D9"
+        "foreground": "#cc6674"
       }
     },
     {
@@ -116,7 +116,7 @@
         "entity.name.type.result.rust"
       ],
       "settings": {
-        "foreground": "#6291d9"
+        "foreground": "#cc6674"
       }
     },
     {
@@ -128,7 +128,7 @@
         "string.quoted.double.rust"
       ],
       "settings": {
-        "foreground": "#8eb1e5"
+        "foreground": "#a7cc66"
       }
     },
     {
@@ -140,7 +140,7 @@
         "meta.attribute.rust"
       ],
       "settings": {
-        "foreground": "#5cccc6"
+        "foreground": "#cc9947"
       }
     },
     {
@@ -149,24 +149,23 @@
         "constant.character.format.placeholder.other.python",
         "variable.language.special.self.python",
         "variable.parameter.function.language.special.self.python",
-        "entity.name.function.macro.rust",
-        "variable.language.self.rust",
-        "constant.character.escape.rust"
-      ],
-      "settings": {
-        "foreground": "#75e67d"
-      }
-    },
-    {
-      "scope": [
         "constant.language.python",
         "constant.numeric.float.python",
         "constant.numeric.dec.python",
+        "entity.name.function.macro.rust",
+        "variable.language.self.rust",
+        "constant.character.escape.rust",
         "constant.language.bool.rust",
         "constant.numeric.decimal.rust"
       ],
       "settings": {
-        "foreground": "#d0ff00"
+        "foreground": "#66ccbe"
+      }
+    },
+    {
+      "scope": [],
+      "settings": {
+        "foreground": "#52CC81"
       }
     },
     {
@@ -176,7 +175,7 @@
         "comment.line.documentation.rust"
       ],
       "settings": {
-        "foreground": "#e6509b"
+        "foreground": "#477acc"
       }
     },
     {
