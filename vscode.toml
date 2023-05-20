@@ -171,7 +171,6 @@ _storage = [
     # python
     "storage.type.class.python",
     "storage.type.string.python",
-    "storage.type.function.lambda.python",
 
     # rust
     "storage.type.rust",
@@ -206,6 +205,7 @@ _functions = [
     # python
     "entity.name.function.python",
     "meta.function-call.generic.python",
+    "storage.type.function.lambda.python",
     "support.function.builtin.python",
 
     # rust
