@@ -190,8 +190,6 @@ _storage = [
 ]
 _strings = [
     # python
-    "string.quoted.docstring.multi.python",
-    "string.quoted.docstring.raw.multi.python",
     "string.quoted.multi.python",
     "string.quoted.single.python",
 
@@ -265,6 +263,8 @@ _neon_yellow = [
 _comments = [
     # python
     "comment.line.number-sign.python",
+    "string.quoted.docstring.multi.python",
+    "string.quoted.docstring.raw.multi.python",
 
     # rust
     "comment.line.double-slash.rust",

@@ -121,8 +121,6 @@
     },
     {
       "scope": [
-        "string.quoted.docstring.multi.python",
-        "string.quoted.docstring.raw.multi.python",
         "string.quoted.multi.python",
         "string.quoted.single.python",
         "string.quoted.double.rust"
@@ -171,11 +169,13 @@
     {
       "scope": [
         "comment.line.number-sign.python",
+        "string.quoted.docstring.multi.python",
+        "string.quoted.docstring.raw.multi.python",
         "comment.line.double-slash.rust",
         "comment.line.documentation.rust"
       ],
       "settings": {
-        "foreground": "#477acc"
+        "foreground": "#5f8cd3"
       }
     },
     {
