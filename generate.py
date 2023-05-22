@@ -19,7 +19,7 @@ import toml
 #         print("\n[[=== Vim ===]]")
 #         print("\n".join(color_theme))
 
-def gen_vs_code(palette):
+def gen_vscode(palette):
     vscode = load_toml("vscode.toml")
     color_theme = {
         "$schema": "vscode://schemas/color-theme",
@@ -29,8 +29,7 @@ def gen_vs_code(palette):
         "tokenColors": [{ "scope": scopes, "settings": { "foreground": palette["tokens"][color] }} for color,scopes in vscode["tokenColors"].items()],
     }
     try:
-        with open(vscode["file"], "w") as f:
-            json.dump(color_theme, f, indent=2)
+        save_json(color_theme, vscode["file"])
     except KeyError:
         print("\n[[=== VS Code ===]]")
         print(json.dumps(color_theme, indent=2))
@@ -42,9 +41,36 @@ def load_toml(file):
     return toml_obj
 
 
+def load_json(file):
+    with open(file) as f:
+        json_obj = json.load(f)
+    return json_obj
+
+
+def save_json(data, file):
+    with open(file, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+def save_chromaplay(palette):
+    colors = [];
+    for color in palette["tokens"].values():
+        if color not in colors:
+            colors.append(color)
+    chromaplay = {
+        "background": palette["editor"]["background"],
+        "colors": colors
+    }
+    save_json(chromaplay, "chromaplay.json")
+
+
 if __name__ == "__main__":
     palette = load_toml("palette.toml")
+
+    # I always want a JSON file that matches my TOML file so I can load it into Chromaplay when I need to.
+    save_chromaplay(palette)
+
     # gen_sublime(palette)
     # gen_vim(palette)
-    gen_vs_code(palette)
+    gen_vscode(palette)
 
