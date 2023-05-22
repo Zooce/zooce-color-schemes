@@ -4,7 +4,12 @@ background = "#212121"
 background_highlight = "#000000"
 highlight = "#264f78"
 highlight_dim = "#162d45"
-highlight_loud = "#85db18"
+border_loud = "#85db18"
+accent = "#2f61b1"
+changed = "#dc9118"
+deleted = "#dc1836"
+inserted = "#95dc18"
+unknown = "#18dcc2"
 
 [tokens]
 foreground = "#e6e6e6"

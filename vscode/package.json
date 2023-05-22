@@ -23,9 +23,9 @@
 				"path": "./themes/zooce-dark-color-theme.json"
 			},
 			{
-				"label": "Zooce Dark 3",
+				"label": "Indomitable",
 				"uiTheme": "vs-dark",
-				"path": "./themes/zooce-dark-3-color-theme.json"
+				"path": "./themes/indomitable-color-theme.json"
 			},
 			{
 				"label": "Zooce Light",

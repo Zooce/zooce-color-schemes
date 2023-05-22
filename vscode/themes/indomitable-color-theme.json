@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "zooce-dark",
+  "name": "indomitable",
   "type": "Dark",
   "colors": {
     "editor.foreground": "#e6e6e6",
@@ -13,7 +13,27 @@
     "editor.selectionHighlightBackground": "#162d45",
     "editor.symbolHighlightBackground": "#162d45",
     "editorBracketMatch.border": "#85db18",
-    "editor.findMatchBorder": "#85db18"
+    "editor.findMatchBorder": "#85db18",
+    "activityBarBadge.background": "#2f61b1",
+    "statusBar.background": "#2f61b1",
+    "editorGutter.modifiedBackground": "#dc9118",
+    "editorOverviewRuler.modifiedForeground": "#dc9118",
+    "minimapGutter.modifiedBackground": "#dc9118",
+    "settings.modifiedItemIndicator": "#dc9118",
+    "gitDecoration.modifiedResourceForeground": "#dc9118",
+    "gitDecoration.stageModifiedResourceForeground": "#dc9118",
+    "editorGutter.deletedBackground": "#dc1836",
+    "editorOverviewRuler.deletedForeground": "#dc1836",
+    "minimapGutter.deletedBackground": "#dc1836",
+    "gitDecoration.deletedResourceForeground": "#dc1836",
+    "gitDecoration.stageDeletedResourceForeground": "#dc1836",
+    "editorGutter.addedBackground": "#95dc18",
+    "editorOverviewRuler.addedForeground": "#95dc18",
+    "minimapGutter.addedBackground": "#95dc18",
+    "gitDecoration.addedResourceForeground": "#95dc18",
+    "gitDecoration.untrackedResourceForeground": "#18dcc2",
+    "gitDecoration.renamedResourceForeground": "#18dcc2",
+    "gitDecoration.submoduleResourceForeground": "#18dcc2"
   },
   "tokenColors": [
     {

@@ -1,6 +1,6 @@
 type = "Dark"
-name = "zooce-dark"
-file = "./vscode/themes/zooce-dark-3-color-theme.json"
+name = "indomitable"
+file = "./vscode/themes/indomitable-color-theme.json"
 
 [colors]
 foreground = [
@@ -22,9 +22,39 @@ highlight_dim = [
     "editor.selectionHighlightBackground",
     "editor.symbolHighlightBackground",
 ]
-highlight_loud = [
+border_loud = [
     "editorBracketMatch.border",
     "editor.findMatchBorder",
+]
+accent = [
+    "activityBarBadge.background",
+    "statusBar.background",
+]
+changed = [
+    "editorGutter.modifiedBackground",
+    "editorOverviewRuler.modifiedForeground",
+    "minimapGutter.modifiedBackground",
+    "settings.modifiedItemIndicator",
+    "gitDecoration.modifiedResourceForeground",
+    "gitDecoration.stageModifiedResourceForeground",
+]
+deleted = [
+    "editorGutter.deletedBackground",
+    "editorOverviewRuler.deletedForeground",
+    "minimapGutter.deletedBackground",
+    "gitDecoration.deletedResourceForeground",
+    "gitDecoration.stageDeletedResourceForeground",
+]
+inserted = [
+    "editorGutter.addedBackground",
+    "editorOverviewRuler.addedForeground",
+    "minimapGutter.addedBackground",
+    "gitDecoration.addedResourceForeground",
+]
+unknown = [
+    "gitDecoration.untrackedResourceForeground",
+    "gitDecoration.renamedResourceForeground",
+    "gitDecoration.submoduleResourceForeground",
 ]
 
 [tokenColors]
