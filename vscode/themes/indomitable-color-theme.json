@@ -33,7 +33,8 @@
     "gitDecoration.addedResourceForeground": "#95dc18",
     "gitDecoration.untrackedResourceForeground": "#18dcc2",
     "gitDecoration.renamedResourceForeground": "#18dcc2",
-    "gitDecoration.submoduleResourceForeground": "#18dcc2"
+    "gitDecoration.submoduleResourceForeground": "#18dcc2",
+    "tab.activeBorderTop": "#18dcc2"
   },
   "tokenColors": [
     {

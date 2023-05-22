@@ -55,6 +55,7 @@ unknown = [
     "gitDecoration.untrackedResourceForeground",
     "gitDecoration.renamedResourceForeground",
     "gitDecoration.submoduleResourceForeground",
+    "tab.activeBorderTop",
 ]
 
 [tokenColors]
