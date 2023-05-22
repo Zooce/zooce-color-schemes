@@ -68,7 +68,6 @@ punctuation = [
     "keyword.operator.namespace.rust",
     "punctuation.brackets.curly.rust",
     "punctuation.brackets.round.rust",
-    "punctuation.brackets.angle.rust",
     "punctuation.brackets.square.rust",
     "keyword.operator.key-value.rust",
     "punctuation.comma.rust",
@@ -76,7 +75,6 @@ punctuation = [
     "keyword.operator.access.dot.rust",
     "punctuation.definition.string.rust",
     "punctuation.definition.lifetime.rust",
-    # "entity.name.type.lifetime.rust",
     "punctuation.brackets.attribute.rust",
     "punctuation.definition.attribute.rust",
     "keyword.operator.arrow.skinny.rust",
@@ -146,6 +144,7 @@ keywords = [
     # rust
     "keyword.control.rust",
     "keyword.operator.assignment.equal.rust",
+    "keyword.operator.arrow.fat.rust",
     "keyword.operator.assignment.rust",
     "keyword.operator.logical.rust",
     "keyword.other.fn.rust",
@@ -155,6 +154,7 @@ keywords = [
     "keyword.operator.dereference.rust",
     "keyword.operator.range.rust",
     "keyword.operator.math.rust",
+    "punctuation.brackets.angle.rust",
 
     # "entity.name.tag",
     # "keyword",
