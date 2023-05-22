@@ -12,8 +12,8 @@
     "editor.wordHighlightBackground": "#264f78",
     "editor.selectionHighlightBackground": "#162d45",
     "editor.symbolHighlightBackground": "#162d45",
-    "editorBracketMatch.border": "#52CC81",
-    "editor.findMatchBorder": "#52CC81"
+    "editorBracketMatch.border": "#85db18",
+    "editor.findMatchBorder": "#85db18"
   },
   "tokenColors": [
     {
@@ -61,7 +61,6 @@
         "keyword.operator.access.dot.rust",
         "punctuation.definition.string.rust",
         "punctuation.definition.lifetime.rust",
-        "entity.name.type.lifetime.rust",
         "punctuation.brackets.attribute.rust",
         "punctuation.definition.attribute.rust",
         "keyword.operator.arrow.skinny.rust",
@@ -94,13 +93,7 @@
         "keyword.operator.math.rust"
       ],
       "settings": {
-        "foreground": "#cc6674"
-      }
-    },
-    {
-      "scope": [],
-      "settings": {
-        "foreground": "#BA8EE6"
+        "foreground": "#d35568"
       }
     },
     {
@@ -115,7 +108,7 @@
         "entity.name.type.result.rust"
       ],
       "settings": {
-        "foreground": "#cc6674"
+        "foreground": "#d35568"
       }
     },
     {
@@ -125,7 +118,7 @@
         "string.quoted.double.rust"
       ],
       "settings": {
-        "foreground": "#a7cc66"
+        "foreground": "#a5d355"
       }
     },
     {
@@ -138,13 +131,12 @@
         "meta.attribute.rust"
       ],
       "settings": {
-        "foreground": "#cc9947"
+        "foreground": "#d3a355"
       }
     },
     {
       "scope": [
         "constant.character.escape.python",
-        "constant.character.format.placeholder.other.python",
         "variable.language.special.self.python",
         "variable.parameter.function.language.special.self.python",
         "constant.language.python",
@@ -154,16 +146,11 @@
         "variable.language.self.rust",
         "constant.character.escape.rust",
         "constant.language.bool.rust",
-        "constant.numeric.decimal.rust"
+        "constant.numeric.decimal.rust",
+        "entity.name.type.lifetime.rust"
       ],
       "settings": {
-        "foreground": "#66ccbe"
-      }
-    },
-    {
-      "scope": [],
-      "settings": {
-        "foreground": "#52CC81"
+        "foreground": "#55d3c2"
       }
     },
     {
@@ -175,7 +162,7 @@
         "comment.line.documentation.rust"
       ],
       "settings": {
-        "foreground": "#5f8cd3"
+        "foreground": "#5585d3"
       }
     },
     {

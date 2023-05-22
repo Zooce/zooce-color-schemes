@@ -25,8 +25,8 @@ def gen_vs_code(palette):
         "$schema": "vscode://schemas/color-theme",
         "name": vscode["name"],
         "type": vscode["type"],
-        "colors": {scope:palette[color] for color,scopes in vscode["colors"].items() for scope in scopes},
-        "tokenColors": [{ "scope": scopes, "settings": { "foreground": palette[color] }} for color,scopes in vscode["tokenColors"].items()],
+        "colors": {scope:palette["editor"][color] for color,scopes in vscode["colors"].items() for scope in scopes},
+        "tokenColors": [{ "scope": scopes, "settings": { "foreground": palette["tokens"][color] }} for color,scopes in vscode["tokenColors"].items()],
     }
     try:
         with open(vscode["file"], "w") as f:

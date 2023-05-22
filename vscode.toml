@@ -3,32 +3,32 @@ name = "zooce-dark"
 file = "./vscode/themes/zooce-dark-3-color-theme.json"
 
 [colors]
-_white = [
+foreground = [
     "editor.foreground",
 ]
-_black = [
+background = [
     "editor.background",
 ]
-_blacker = [
+background_highlight = [
     "editor.lineHighlightBackground",
     "editorGutter.background",
 ]
-_dim_blue = [
+highlight = [
     "editor.findMatchHighlightBackground",
     "editor.hoverHighlightBackground",
     "editor.wordHighlightBackground",
 ]
-_dimmer_blue = [
+highlight_dim = [
     "editor.selectionHighlightBackground",
     "editor.symbolHighlightBackground",
 ]
-_neon_yellow = [
+highlight_loud = [
     "editorBracketMatch.border",
     "editor.findMatchBorder",
 ]
 
 [tokenColors]
-_white = [
+foreground = [
     # rust
     "entity.name.type.rust",
 
@@ -37,7 +37,7 @@ _white = [
     # "support.type.property-name",
     # "entity.name.type",
 ]
-_gray = [
+punctuation = [
     # python
     "constant.character.format.placeholder.other.python",
     "entity.name.function.decorator.python",
@@ -76,7 +76,7 @@ _gray = [
     "keyword.operator.access.dot.rust",
     "punctuation.definition.string.rust",
     "punctuation.definition.lifetime.rust",
-    "entity.name.type.lifetime.rust",
+    # "entity.name.type.lifetime.rust",
     "punctuation.brackets.attribute.rust",
     "punctuation.definition.attribute.rust",
     "keyword.operator.arrow.skinny.rust",
@@ -132,7 +132,7 @@ _gray = [
     # "storage.type.annotation",
     # "string.quoted.docstring",
 ]
-_keywords = [
+keywords = [
     # python
     "keyword.control.flow.python",
     "keyword.control.import.python",
@@ -164,10 +164,7 @@ _keywords = [
     # "punctuation.definition.keyword",
     # "punctuation.separator.namespace",
 ]
-_light_purple = [
-    # "entity.name.type",
-]
-_storage = [
+storage = [
     # python
     "storage.type.class.python",
     "storage.type.string.python",
@@ -187,7 +184,7 @@ _storage = [
     # "support.class",
     # "constant.other.database-name",
 ]
-_strings = [
+strings = [
     # python
     "string.quoted.multi.python",
     "string.quoted.single.python",
@@ -201,7 +198,7 @@ _strings = [
     # "constant.other.table-name",
     # "entity.name.type",
 ]
-_functions = [
+functions = [
     # python
     "entity.name.function.python",
     "meta.function-call.generic.python",
@@ -219,10 +216,10 @@ _functions = [
     # "entity.name.function.preprocessor",
     # "entity.name.section",
 ]
-_constants = [
+constants = [
     # python
     "constant.character.escape.python",
-    "constant.character.format.placeholder.other.python",
+    # "constant.character.format.placeholder.other.python",
     "variable.language.special.self.python",
     "variable.parameter.function.language.special.self.python",
     "constant.language.python",
@@ -235,6 +232,7 @@ _constants = [
     "constant.character.escape.rust",
     "constant.language.bool.rust",
     "constant.numeric.decimal.rust",
+    "entity.name.type.lifetime.rust",
 
     # "variable.language", # like `self`
     # "comment.line",
@@ -243,24 +241,7 @@ _constants = [
     # "markup.raw",
     # "markup.inline",
 ]
-_neon_yellow = [
-    # python
-    # "constant.language.python",
-    # "constant.numeric.float.python",
-    # "constant.numeric.dec.python",
-
-    # rust
-    # "constant.language.bool.rust",
-    # "constant.numeric.decimal.rust",
-
-    # "constant.numeric",
-    # "constant.language",
-    # "constant.character",
-    # "constant.other",
-    # "support.constant",
-    # "keyword.constant",
-]
-_comments = [
+comments = [
     # python
     "comment.line.number-sign.python",
     "string.quoted.docstring.multi.python",
@@ -275,13 +256,13 @@ _comments = [
     # "comment.block.html",
     # "comment.block.xml",
 ]
-_orange = [
+changed = [
     # "markup.changed",
 ]
-_red = [
+deleted = [
     # "markup.deleted",
 ]
-_green = [
+inserted = [
     # "markup.inserted",
 ]
 
