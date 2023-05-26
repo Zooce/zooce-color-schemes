@@ -6,6 +6,10 @@ class Rectangle {
     this.#height = height;
     this.#width = width;
   }
+
+  area() {
+    return this.height * this.width;
+  }
 }
 
 class Point {
@@ -32,3 +36,9 @@ p2.distance; // undefined
 
 console.log(Point.displayName); // "Point"
 console.log(Point.distance(p1, p2)); // 7.0710678118654755
+
+for (const thing of [0, 1, 2, 3]) {
+  if (thing === 3) console.log(`We found a ${thing + 5}!`);
+  console.error('You messed up!');
+  if (thing !== 2) throw new Error("We're done!");
+}
