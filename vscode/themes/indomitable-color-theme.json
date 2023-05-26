@@ -12,34 +12,44 @@
     "editor.wordHighlightBackground": "#264f78",
     "editor.selectionHighlightBackground": "#162d45",
     "editor.symbolHighlightBackground": "#162d45",
-    "editorBracketMatch.border": "#85db18",
     "editor.findMatchBorder": "#85db18",
+    "editorBracketMatch.border": "#85db18",
     "activityBarBadge.background": "#2f61b1",
     "statusBar.background": "#2f61b1",
     "editorGutter.modifiedBackground": "#dc9118",
     "editorOverviewRuler.modifiedForeground": "#dc9118",
-    "minimapGutter.modifiedBackground": "#dc9118",
-    "settings.modifiedItemIndicator": "#dc9118",
     "gitDecoration.modifiedResourceForeground": "#dc9118",
     "gitDecoration.stageModifiedResourceForeground": "#dc9118",
+    "minimapGutter.modifiedBackground": "#dc9118",
+    "settings.modifiedItemIndicator": "#dc9118",
     "editorGutter.deletedBackground": "#dc1836",
     "editorOverviewRuler.deletedForeground": "#dc1836",
-    "minimapGutter.deletedBackground": "#dc1836",
     "gitDecoration.deletedResourceForeground": "#dc1836",
     "gitDecoration.stageDeletedResourceForeground": "#dc1836",
+    "minimapGutter.deletedBackground": "#dc1836",
     "editorGutter.addedBackground": "#95dc18",
     "editorOverviewRuler.addedForeground": "#95dc18",
-    "minimapGutter.addedBackground": "#95dc18",
     "gitDecoration.addedResourceForeground": "#95dc18",
-    "gitDecoration.untrackedResourceForeground": "#18dcc2",
+    "minimapGutter.addedBackground": "#95dc18",
     "gitDecoration.renamedResourceForeground": "#18dcc2",
     "gitDecoration.submoduleResourceForeground": "#18dcc2",
+    "gitDecoration.untrackedResourceForeground": "#18dcc2",
     "tab.activeBorderTop": "#18dcc2"
   },
   "tokenColors": [
     {
       "scope": [
-        "entity.name.type.rust"
+        "keyword.other.definition.ini",
+        "constant.other.key.java",
+        "storage.modifier.import.java",
+        "storage.modifier.package.java",
+        "storage.type.java",
+        "storage.type.generic.java",
+        "variable.other.readwrite.js",
+        "constant.other.caps.rust",
+        "entity.name.type.rust",
+        "keyword.key.toml",
+        "variable.other.property.ts"
       ],
       "settings": {
         "foreground": "#e6e6e6"
@@ -47,44 +57,20 @@
     },
     {
       "scope": [
+        "punctuation",
+        "keyword.other.documentation.javadoc.java",
+        "meta.brace.round.js",
+        "meta.brace.square.js",
+        "meta.separator.markdown",
         "constant.character.format.placeholder.other.python",
         "entity.name.function.decorator.python",
-        "punctuation.definition.arguments.begin.python",
-        "punctuation.definition.arguments.end.python",
-        "punctuation.definition.dict.begin.python",
-        "punctuation.definition.dict.end.python",
-        "punctuation.definition.list.begin.python",
-        "punctuation.definition.list.end.python",
-        "punctuation.definition.parameters.begin.python",
-        "punctuation.definition.parameters.end.python",
-        "punctuation.definition.string.begin.python",
-        "punctuation.definition.string.end.python",
-        "punctuation.parenthesis.begin.python",
-        "punctuation.parenthesis.end.python",
-        "punctuation.section.class.begin.python",
-        "punctuation.section.function.begin.python",
-        "punctuation.section.function.lambda.begin.python",
-        "punctuation.separator.annotation.python",
-        "punctuation.separator.arguments.python",
-        "punctuation.separator.colon.python",
-        "punctuation.separator.dict.python",
-        "punctuation.separator.element.python",
-        "punctuation.separator.parameters.python",
-        "punctuation.separator.period.python",
-        "keyword.operator.namespace.rust",
-        "punctuation.brackets.curly.rust",
-        "punctuation.brackets.round.rust",
-        "punctuation.brackets.square.rust",
-        "keyword.operator.key-value.rust",
-        "punctuation.comma.rust",
-        "punctuation.semi.rust",
         "keyword.operator.access.dot.rust",
-        "punctuation.definition.string.rust",
-        "punctuation.definition.lifetime.rust",
-        "punctuation.brackets.attribute.rust",
-        "punctuation.definition.attribute.rust",
+        "keyword.operator.arrow.fat.rust",
         "keyword.operator.arrow.skinny.rust",
-        "keyword.operator.arrow.fat.rust"
+        "keyword.operator.key-value.rust",
+        "keyword.operator.namespace.rust",
+        "meta.brace.square.ts",
+        "meta.brace.round.ts"
       ],
       "settings": {
         "foreground": "#999999"
@@ -92,42 +78,20 @@
     },
     {
       "scope": [
-        "keyword.control.flow.python",
-        "keyword.control.import.python",
-        "keyword.operator.arithmetic.python",
-        "keyword.operator.assignment.python",
-        "keyword.operator.comparison.python",
-        "keyword.operator.logical.python",
-        "keyword.operator.python",
-        "storage.type.function.python",
-        "keyword.control.rust",
-        "keyword.operator.assignment.equal.rust",
-        "keyword.operator.arrow.fat.rust",
-        "keyword.operator.assignment.rust",
-        "keyword.operator.logical.rust",
-        "keyword.other.fn.rust",
-        "keyword.other.rust",
-        "keyword.operator.borrow.and.rust",
-        "keyword.operator.comparison.rust",
-        "keyword.operator.dereference.rust",
-        "keyword.operator.range.rust",
-        "keyword.operator.math.rust",
-        "punctuation.brackets.angle.rust"
-      ],
-      "settings": {
-        "foreground": "#d35568"
-      }
-    },
-    {
-      "scope": [
-        "storage.type.class.python",
-        "storage.type.string.python",
-        "storage.type.rust",
-        "storage.modifier.mut.rust",
+        "entity.name.section",
+        "entity.name.tag",
+        "keyword",
+        "storage.modifier",
+        "storage.type",
+        "support.type.property-name.json",
+        "markup.heading.setext.1.markdown",
         "entity.name.type.numeric.rust",
-        "entity.name.type.primitive.rust",
         "entity.name.type.option.rust",
-        "entity.name.type.result.rust"
+        "entity.name.type.primitive.rust",
+        "entity.name.type.result.rust",
+        "punctuation.brackets.angle.rust",
+        "entity.other.attribute-name.table.toml",
+        "support.type.primitive.ts"
       ],
       "settings": {
         "foreground": "#d35568"
@@ -135,9 +99,8 @@
     },
     {
       "scope": [
-        "string.quoted.multi.python",
-        "string.quoted.single.python",
-        "string.quoted.double.rust"
+        "string",
+        "markup.quote.markdown"
       ],
       "settings": {
         "foreground": "#a5d355"
@@ -145,11 +108,15 @@
     },
     {
       "scope": [
-        "entity.name.function.python",
+        "entity.name.function",
+        "entity.other.attribute-name",
+        "support.function",
+        "storage.type.annotation.java",
+        "string.other.link.title.markdown",
+        "markup.italic.markdown",
+        "markup.bold.markdown",
         "meta.function-call.generic.python",
         "storage.type.function.lambda.python",
-        "support.function.builtin.python",
-        "entity.name.function.rust",
         "meta.attribute.rust"
       ],
       "settings": {
@@ -158,18 +125,17 @@
     },
     {
       "scope": [
-        "constant.character.escape.python",
+        "constant",
+        "keyword.other.unit",
+        "variable.language.this.js",
+        "markup.raw.block.markdown",
+        "markup.inline.raw.string.markdown",
         "variable.language.special.self.python",
         "variable.parameter.function.language.special.self.python",
-        "constant.language.python",
-        "constant.numeric.float.python",
-        "constant.numeric.dec.python",
         "entity.name.function.macro.rust",
+        "entity.name.type.lifetime.rust",
         "variable.language.self.rust",
-        "constant.character.escape.rust",
-        "constant.language.bool.rust",
-        "constant.numeric.decimal.rust",
-        "entity.name.type.lifetime.rust"
+        "variable.language.this.ts"
       ],
       "settings": {
         "foreground": "#55d3c2"
@@ -177,30 +143,37 @@
     },
     {
       "scope": [
-        "comment.line.number-sign.python",
+        "comment",
+        "punctuation.definition.comment",
+        "constant.other.reference.link.markdown",
+        "markup.underline.link.markdown",
         "string.quoted.docstring.multi.python",
-        "string.quoted.docstring.raw.multi.python",
-        "comment.line.double-slash.rust",
-        "comment.line.documentation.rust"
+        "string.quoted.docstring.raw.multi.python"
       ],
       "settings": {
         "foreground": "#5585d3"
       }
     },
     {
-      "scope": [],
+      "scope": [
+        "markup.changed"
+      ],
       "settings": {
         "foreground": "#fdbe00"
       }
     },
     {
-      "scope": [],
+      "scope": [
+        "markup.deleted"
+      ],
       "settings": {
         "foreground": "#e83841"
       }
     },
     {
-      "scope": [],
+      "scope": [
+        "markup.inserted"
+      ],
       "settings": {
         "foreground": "#85db18"
       }

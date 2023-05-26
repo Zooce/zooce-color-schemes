@@ -23,8 +23,8 @@ highlight_dim = [
     "editor.symbolHighlightBackground",
 ]
 border_loud = [
-    "editorBracketMatch.border",
     "editor.findMatchBorder",
+    "editorBracketMatch.border",
 ]
 accent = [
     "activityBarBadge.background",
@@ -33,268 +33,179 @@ accent = [
 changed = [
     "editorGutter.modifiedBackground",
     "editorOverviewRuler.modifiedForeground",
-    "minimapGutter.modifiedBackground",
-    "settings.modifiedItemIndicator",
     "gitDecoration.modifiedResourceForeground",
     "gitDecoration.stageModifiedResourceForeground",
+    "minimapGutter.modifiedBackground",
+    "settings.modifiedItemIndicator",
 ]
 deleted = [
     "editorGutter.deletedBackground",
     "editorOverviewRuler.deletedForeground",
-    "minimapGutter.deletedBackground",
     "gitDecoration.deletedResourceForeground",
     "gitDecoration.stageDeletedResourceForeground",
+    "minimapGutter.deletedBackground",
 ]
 inserted = [
     "editorGutter.addedBackground",
     "editorOverviewRuler.addedForeground",
-    "minimapGutter.addedBackground",
     "gitDecoration.addedResourceForeground",
+    "minimapGutter.addedBackground",
 ]
 unknown = [
-    "gitDecoration.untrackedResourceForeground",
     "gitDecoration.renamedResourceForeground",
     "gitDecoration.submoduleResourceForeground",
+    "gitDecoration.untrackedResourceForeground",
     "tab.activeBorderTop",
 ]
 
 [tokenColors]
 foreground = [
+    # ini
+    "keyword.other.definition.ini",
+
+    # java
+    "constant.other.key.java",
+    "storage.modifier.import.java",
+    "storage.modifier.package.java",
+    "storage.type.java",
+    "storage.type.generic.java",
+
+    # javascript
+    "variable.other.readwrite.js",
+
     # rust
+    "constant.other.caps.rust",
     "entity.name.type.rust",
 
-    # "constant.other.caps",
-    # "variable",
-    # "support.type.property-name",
-    # "entity.name.type",
+    # toml
+    "keyword.key.toml",
+
+    # typescript
+    "variable.other.property.ts",
 ]
 punctuation = [
+    "punctuation",
+
+    # java
+    "keyword.other.documentation.javadoc.java",
+
+    # javascript
+    "meta.brace.round.js",
+    "meta.brace.square.js",
+
+    # markdown
+    "meta.separator.markdown",
+
     # python
     "constant.character.format.placeholder.other.python",
     "entity.name.function.decorator.python",
-    "punctuation.definition.arguments.begin.python",
-    "punctuation.definition.arguments.end.python",
-    "punctuation.definition.dict.begin.python",
-    "punctuation.definition.dict.end.python",
-    "punctuation.definition.list.begin.python",
-    "punctuation.definition.list.end.python",
-    "punctuation.definition.parameters.begin.python",
-    "punctuation.definition.parameters.end.python",
-    "punctuation.definition.string.begin.python",
-    "punctuation.definition.string.end.python",
-    "punctuation.parenthesis.begin.python",
-    "punctuation.parenthesis.end.python",
-    "punctuation.section.class.begin.python",
-    "punctuation.section.function.begin.python",
-    "punctuation.section.function.lambda.begin.python",
-    "punctuation.separator.annotation.python",
-    "punctuation.separator.arguments.python",
-    "punctuation.separator.colon.python",
-    "punctuation.separator.dict.python",
-    "punctuation.separator.element.python",
-    "punctuation.separator.parameters.python",
-    "punctuation.separator.period.python",
 
     # rust
-    "keyword.operator.namespace.rust",
-    "punctuation.brackets.curly.rust",
-    "punctuation.brackets.round.rust",
-    "punctuation.brackets.square.rust",
-    "keyword.operator.key-value.rust",
-    "punctuation.comma.rust",
-    "punctuation.semi.rust",
     "keyword.operator.access.dot.rust",
-    "punctuation.definition.string.rust",
-    "punctuation.definition.lifetime.rust",
-    "punctuation.brackets.attribute.rust",
-    "punctuation.definition.attribute.rust",
-    "keyword.operator.arrow.skinny.rust",
     "keyword.operator.arrow.fat.rust",
+    "keyword.operator.arrow.skinny.rust",
+    "keyword.operator.key-value.rust",
+    "keyword.operator.namespace.rust",
 
-    # "comment.block",
-    # "constant.character.format",
-    # "entity.name.function.decorator",
-    # "keyword.operator",
-    # "markup.fenced_code",
-    # "meta.attribute",
-    # "meta.brace",
-    # "meta.diff",
-    # "meta.embedded.diff",
-    # "meta.separator",
-    # "meta.tag",
-    # "meta.tag.preprocessor",
-    # "punctuation.accessor",
-    # "punctuation.brackets",
-    # "punctuation.comma",
-    # "punctuation.decorator",
-    # "punctuation.definition.annotation",
-    # "punctuation.definition.arguments",
-    # "punctuation.definition.begin",
-    # "punctuation.definition.block",
-    # "punctuation.definition.bold",
-    # "punctuation.definition.constant",
-    # "punctuation.definition.dict",
-    # "punctuation.definition.end",
-    # "punctuation.definition.italic",
-    # "punctuation.definition.link",
-    # "punctuation.definition.list",
-    # "punctuation.definition.metadata",
-    # "punctuation.definition.parameters",
-    # "punctuation.definition.quote",
-    # "punctuation.definition.raw",
-    # "punctuation.definition.string",
-    # "punctuation.definition.tag",
-    # "punctuation.definition.template-expression",
-    # "punctuation.parenthesis",
-    # "punctuation.section",
-    # "punctuation.semi",
-    # "punctuation.separator",
-    # "punctuation.terminator",
-    # "punctuation.other.period",
-    # "punctuation.other.comma",
-    # "punctuation.definition.imports",
-    # "punctuation.definition.annotation-arguments",
-    # "punctuation.definition.entity",
-    # "punctuation.definition.keyValuePair.toml",
-    # "punctuation.definition.inlinetable.toml",
-    # "punctuation.definition.array.toml",
-    # "storage.type.annotation",
-    # "string.quoted.docstring",
+    # typescript
+    "meta.brace.square.ts",
+    "meta.brace.round.ts",
 ]
 keywords = [
-    # python
-    "keyword.control.flow.python",
-    "keyword.control.import.python",
-    "keyword.operator.arithmetic.python",
-    "keyword.operator.assignment.python",
-    "keyword.operator.comparison.python",
-    "keyword.operator.logical.python",
-    "keyword.operator.python",
-    "storage.type.function.python",
+    "entity.name.section",
+    "entity.name.tag",
+    "keyword",
+    "storage.modifier",
+    "storage.type",
+
+    # json
+    "support.type.property-name.json",
+
+    # markdown
+    "markup.heading.setext.1.markdown",
 
     # rust
-    "keyword.control.rust",
-    "keyword.operator.assignment.equal.rust",
-    "keyword.operator.arrow.fat.rust",
-    "keyword.operator.assignment.rust",
-    "keyword.operator.logical.rust",
-    "keyword.other.fn.rust",
-    "keyword.other.rust",
-    "keyword.operator.borrow.and.rust",
-    "keyword.operator.comparison.rust",
-    "keyword.operator.dereference.rust",
-    "keyword.operator.range.rust",
-    "keyword.operator.math.rust",
+    "entity.name.type.numeric.rust",
+    "entity.name.type.option.rust",
+    "entity.name.type.primitive.rust",
+    "entity.name.type.result.rust",
     "punctuation.brackets.angle.rust",
 
-    # "entity.name.tag",
-    # "keyword",
-    # "keyword.operator.delete",
-    # "keyword.operator.new",
-    # "markup.heading",
-    # "punctuation.definition.keyword",
-    # "punctuation.separator.namespace",
-]
-storage = [
-    # python
-    "storage.type.class.python",
-    "storage.type.string.python",
+    # toml
+    "entity.other.attribute-name.table.toml",
 
-    # rust
-    "storage.type.rust",
-    "storage.modifier.mut.rust",
-    "entity.name.type.numeric.rust",
-    "entity.name.type.primitive.rust",
-    "entity.name.type.option.rust",
-    "entity.name.type.result.rust",
-
-    # "keyword.control.svelte",
-    # "punctuation.definition.keyword.svelte",
-    # "storage",
-    # "support.type",
-    # "support.class",
-    # "constant.other.database-name",
+    # typescript
+    "support.type.primitive.ts",
 ]
 strings = [
-    # python
-    "string.quoted.multi.python",
-    "string.quoted.single.python",
+    "string",
 
-    # rust
-    "string.quoted.double.rust",
-
-    # "string",
-    # "support.constant.font-name",
-    # "support.constant.property-value",
-    # "constant.other.table-name",
-    # "entity.name.type",
+    # markdown
+    "markup.quote.markdown",
 ]
 functions = [
+    "entity.name.function",
+    "entity.other.attribute-name",
+    "support.function",
+
+    # java
+    "storage.type.annotation.java",
+
+    # markdown
+    "string.other.link.title.markdown",
+    "markup.italic.markdown",
+    "markup.bold.markdown",
+
     # python
-    "entity.name.function.python",
     "meta.function-call.generic.python",
     "storage.type.function.lambda.python",
-    "support.function.builtin.python",
 
     # rust
-    "entity.name.function.rust",
     "meta.attribute.rust",
-
-    # "entity.name.function",
-    # "entity.other.attribute-name",
-    # "meta.function-call",
-    # "support.function",
-    # "entity.name.function.preprocessor",
-    # "entity.name.section",
 ]
 constants = [
+    "constant",
+
+    # css
+    "keyword.other.unit",
+
+    # javascript
+    "variable.language.this.js",
+
+    # markdown
+    "markup.raw.block.markdown",
+    "markup.inline.raw.string.markdown",
+
     # python
-    "constant.character.escape.python",
-    # "constant.character.format.placeholder.other.python",
     "variable.language.special.self.python",
     "variable.parameter.function.language.special.self.python",
-    "constant.language.python",
-    "constant.numeric.float.python",
-    "constant.numeric.dec.python",
 
     # rust
     "entity.name.function.macro.rust",
-    "variable.language.self.rust",
-    "constant.character.escape.rust",
-    "constant.language.bool.rust",
-    "constant.numeric.decimal.rust",
     "entity.name.type.lifetime.rust",
+    "variable.language.self.rust",
 
-    # "variable.language", # like `self`
-    # "comment.line",
-    # "comment.block.html",
-    # "comment.block.xml",
-    # "markup.raw",
-    # "markup.inline",
+    # typescript
+    "variable.language.this.ts",
 ]
 comments = [
+    "comment",
+    "punctuation.definition.comment",
+
+    # markdown
+    "constant.other.reference.link.markdown",
+    "markup.underline.link.markdown",
+
     # python
-    "comment.line.number-sign.python",
     "string.quoted.docstring.multi.python",
     "string.quoted.docstring.raw.multi.python",
-
-    # rust
-    "comment.line.double-slash.rust",
-    "comment.line.documentation.rust",
-
-    # "variable.language", # like `self`
-    # "comment.line",
-    # "comment.block.html",
-    # "comment.block.xml",
 ]
 changed = [
-    # "markup.changed",
+    "markup.changed",
 ]
 deleted = [
-    # "markup.deleted",
+    "markup.deleted",
 ]
 inserted = [
-    # "markup.inserted",
+    "markup.inserted",
 ]
-
-
