@@ -1,6 +1,6 @@
 type = "Dark"
 name = "indomitable"
-file = "./vscode/themes/indomitable-color-theme.json"
+file = "./vscode/themes/indomitable.json"
 
 [colors]
 foreground = [

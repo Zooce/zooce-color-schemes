@@ -1,7 +1,7 @@
 {
 	"name": "zooce",
-	"displayName": "theme-zooce",
-	"description": "Color themes for gods.",
+	"displayName": "Zooce Themes",
+	"description": "Simple color themes.",
 	"version": "2.0.0",
 	"publisher": "Zooce",
 	"engines": {
@@ -13,29 +13,19 @@
 	"icon": "images/ZooceLogo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Zooce/zooce-color-scheme/tree/master/vscode"
+		"url": "https://github.com/Zooce/zooce-color-schemes/tree/master/vscode"
 	},
 	"contributes": {
 		"themes": [
 			{
-				"label": "Zooce Dark",
+				"label": "Intrepid",
 				"uiTheme": "vs-dark",
-				"path": "./themes/zooce-dark-color-theme.json"
+				"path": "./themes/intrepid.json"
 			},
 			{
 				"label": "Indomitable",
 				"uiTheme": "vs-dark",
-				"path": "./themes/indomitable-color-theme.json"
-			},
-			{
-				"label": "Zooce Light",
-				"uiTheme": "vs",
-				"path": "./themes/zooce-light-color-theme.json"
-			},
-			{
-				"label": "Zooce Medium",
-				"uiTheme": "vs-dark",
-				"path": "./themes/zooce-medium-color-theme.json"
+				"path": "./themes/indomitable.json"
 			}
 		]
 	},

@@ -143,6 +143,17 @@
     },
     {
       "scope": [
+        "constant.other.caps.python",
+        "constant.other.caps.rust",
+        "variable.scss",
+        "support.function.builtin.zig"
+      ],
+      "settings": {
+        "foreground": "#a96eb9"
+      }
+    },
+    {
+      "scope": [
         "comment",
         "punctuation.definition.comment",
         "constant.other.reference.link.markdown",
