@@ -1,0 +1,224 @@
+type = "Dark"
+name = "intrepid"
+file = "./vscode/themes/intrepid.json"
+
+[colors]
+foreground = [
+    "editor.foreground",
+]
+background = [
+    "editor.background",
+]
+background_highlight = [
+    "editor.lineHighlightBackground",
+    "editorGutter.background",
+]
+highlight = [
+    "editor.findMatchHighlightBackground",
+    "editor.hoverHighlightBackground",
+    "editor.wordHighlightBackground",
+]
+highlight_dim = [
+    "editor.selectionHighlightBackground",
+    "editor.symbolHighlightBackground",
+]
+border_loud = [
+    "editor.findMatchBorder",
+    "editorBracketMatch.border",
+]
+accent = [
+    "activityBarBadge.background",
+    "statusBar.background",
+]
+changed = [
+    "editorGutter.modifiedBackground",
+    "editorOverviewRuler.modifiedForeground",
+    "gitDecoration.modifiedResourceForeground",
+    "gitDecoration.stageModifiedResourceForeground",
+    "minimapGutter.modifiedBackground",
+    "settings.modifiedItemIndicator",
+]
+deleted = [
+    "editorGutter.deletedBackground",
+    "editorOverviewRuler.deletedForeground",
+    "gitDecoration.deletedResourceForeground",
+    "gitDecoration.stageDeletedResourceForeground",
+    "minimapGutter.deletedBackground",
+]
+inserted = [
+    "editorGutter.addedBackground",
+    "editorOverviewRuler.addedForeground",
+    "gitDecoration.addedResourceForeground",
+    "minimapGutter.addedBackground",
+]
+unknown = [
+    "gitDecoration.renamedResourceForeground",
+    "gitDecoration.submoduleResourceForeground",
+    "gitDecoration.untrackedResourceForeground",
+    "tab.activeBorderTop",
+]
+
+[tokenColors]
+foreground = [
+    # ini
+    "keyword.other.definition.ini",
+
+    # java
+    "constant.other.key.java",
+    "storage.modifier.import.java",
+    "storage.modifier.package.java",
+    "storage.type.java",
+    "storage.type.generic.java",
+
+    # javascript
+    "variable.other.readwrite.js",
+
+    # rust
+    "constant.other.caps.rust",
+    "entity.name.type.rust",
+
+    # toml
+    "keyword.key.toml",
+
+    # typescript
+    "variable.other.property.ts",
+]
+punctuation = [
+    "punctuation",
+
+    # java
+    "keyword.other.documentation.javadoc.java",
+
+    # javascript
+    "meta.brace.round.js",
+    "meta.brace.square.js",
+
+    # markdown
+    "meta.separator.markdown",
+
+    # python
+    "constant.character.format.placeholder.other.python",
+    "entity.name.function.decorator.python",
+
+    # rust
+    "keyword.operator.access.dot.rust",
+    "keyword.operator.arrow.fat.rust",
+    "keyword.operator.arrow.skinny.rust",
+    "keyword.operator.key-value.rust",
+    "keyword.operator.namespace.rust",
+
+    # typescript
+    "meta.brace.square.ts",
+    "meta.brace.round.ts",
+]
+keywords = [
+    "entity.name.section",
+    "entity.name.tag",
+    "keyword",
+    "storage.modifier",
+    "storage.type",
+
+    # json
+    "support.type.property-name.json",
+
+    # markdown
+    "markup.heading.setext.1.markdown",
+
+    # rust
+    "entity.name.type.numeric.rust",
+    "entity.name.type.option.rust",
+    "entity.name.type.primitive.rust",
+    "entity.name.type.result.rust",
+    "punctuation.brackets.angle.rust",
+
+    # toml
+    "entity.other.attribute-name.table.toml",
+
+    # typescript
+    "support.type.primitive.ts",
+]
+strings = [
+    "string",
+
+    # markdown
+    "markup.quote.markdown",
+]
+functions = [
+    "entity.name.function",
+    "entity.other.attribute-name",
+    "support.function",
+
+    # java
+    "storage.type.annotation.java",
+
+    # markdown
+    "string.other.link.title.markdown",
+    "markup.italic.markdown",
+    "markup.bold.markdown",
+
+    # python
+    "meta.function-call.generic.python",
+    "storage.type.function.lambda.python",
+
+    # rust
+    "meta.attribute.rust",
+]
+constants = [
+    "constant",
+
+    # css
+    "keyword.other.unit",
+
+    # javascript
+    "variable.language.this.js",
+
+    # markdown
+    "markup.raw.block.markdown",
+    "markup.inline.raw.string.markdown",
+
+    # python
+    "variable.language.special.self.python",
+    "variable.parameter.function.language.special.self.python",
+
+    # rust
+    "entity.name.function.macro.rust",
+    "entity.name.type.lifetime.rust",
+    "variable.language.self.rust",
+
+    # typescript
+    "variable.language.this.ts",
+]
+other = [
+    # python
+    "constant.other.caps.python",
+
+    # rust
+    "constant.other.caps.rust",
+
+    # scss
+    "variable.scss",
+
+    # zig
+    "support.function.builtin.zig",
+]
+comments = [
+    "comment",
+    "punctuation.definition.comment",
+
+    # markdown
+    "constant.other.reference.link.markdown",
+    "markup.underline.link.markdown",
+
+    # python
+    "string.quoted.docstring.multi.python",
+    "string.quoted.docstring.raw.multi.python",
+]
+changed = [
+    "markup.changed",
+]
+deleted = [
+    "markup.deleted",
+]
+inserted = [
+    "markup.inserted",
+]
