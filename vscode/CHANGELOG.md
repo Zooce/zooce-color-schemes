@@ -3,6 +3,14 @@ All notable changes to the "zooce" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.0]
+### Added
+- New theme called `Indomitable`
+### Changed
+- `Zooce Dark` changed to `Intrepid`
+### Removed
+- `Zooce Medium` removed
+
 ## [1.1.5]
 ### Added
 - Personal Access Token generation instructions
