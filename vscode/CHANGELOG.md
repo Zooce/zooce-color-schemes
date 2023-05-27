@@ -3,6 +3,10 @@ All notable changes to the "zooce" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.1]
+### Changed
+- Updated README
+
 ## [2.0.0]
 ### Added
 - New theme called `Indomitable`
