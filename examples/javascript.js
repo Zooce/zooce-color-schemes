@@ -12,6 +12,9 @@ class Rectangle {
   }
 }
 
+const MAX = 55;
+const cool = 4;
+
 class Point {
   constructor(x, y) {
     this.x = x;

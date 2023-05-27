@@ -19,6 +19,8 @@ inline T const & maximum(T const & a, T const & b) {
     return a < b ? b : a;
 }
 
+const HELLO = "hello";
+
 namespace Zooce {
 
     bool thoseThings[6]; // you know these are cool, come on

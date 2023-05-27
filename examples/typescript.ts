@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+const THING = 43;
+const cool = -1;
+
 /**
  * Just a thing!
  */
