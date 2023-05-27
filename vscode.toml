@@ -188,6 +188,19 @@ constants = [
     # typescript
     "variable.language.this.ts",
 ]
+other = [
+    # python
+    "constant.other.caps.python",
+
+    # rust
+    "constant.other.caps.rust",
+
+    # scss
+    "variable.scss",
+
+    # zig
+    "support.function.builtin.zig",
+]
 comments = [
     "comment",
     "punctuation.definition.comment",
