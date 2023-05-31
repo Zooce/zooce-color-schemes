@@ -81,7 +81,9 @@ foreground = [
     "keyword.key.toml",
 
     # typescript
+    "variable.other.object.ts",
     "variable.other.property.ts",
+    "variable.other.readwrite.ts",
 ]
 punctuation = [
     "punctuation",

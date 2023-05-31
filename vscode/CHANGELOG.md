@@ -3,6 +3,10 @@ All notable changes to the "zooce" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.2]
+### Changed
+- Fix variable colors in template strings for TypeScript
+
 ## [2.0.1]
 ### Changed
 - Updated README

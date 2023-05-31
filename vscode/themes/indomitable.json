@@ -49,7 +49,9 @@
         "constant.other.caps.rust",
         "entity.name.type.rust",
         "keyword.key.toml",
-        "variable.other.property.ts"
+        "variable.other.object.ts",
+        "variable.other.property.ts",
+        "variable.other.readwrite.ts"
       ],
       "settings": {
         "foreground": "#e6e6e6"
