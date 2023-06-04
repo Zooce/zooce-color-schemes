@@ -21,7 +21,7 @@ class SomeClass:
         self.pets = []
 
     def cats(arg):
-        deg = [1, 2, '3', "4"]
+        deg = [1, 2, '3, "4"]
         huh = deg.append(1)
         return { "one": 1, "two": 2.0, "answer": MAX }
 
