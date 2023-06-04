@@ -1,6 +1,7 @@
 local palette = require('indomitable.palette')
 return {
   Normal = { fg = palette.foreground, bg = palette.background },
+  Pmenu = { link = 'Normal' },
 
   Foreground = { fg = palette.foreground },
   Identifier = { link = 'Foreground' },
@@ -76,6 +77,7 @@ return {
   ['@string.documentation'] = { link = 'Comment' },
   ['@text.uri.markdown_inline'] = { link = 'Comment' },
   ['@text.reference.markdown'] = { link = 'Comment' },
+  ['@text.todo'] = { fg = palette.foreground, bg = palette.comments, bold = true },
 
   -- other
   Special = { fg = palette.other },
@@ -102,6 +104,15 @@ return {
   DiagnosticUnderlineOk =  { bg = palette.inserted, fg = 'Black', bold = true },
   DiagnosticUnderlineWarn = { bg = palette.changed, fg = 'Black', bold = true },
   DiagnosticUnderlineError = { bg = palette.deleted, fg = 'White', bold = true },
+
+  NonText = { fg = palette.punctuation_dim },
+
+  -- sign column status
+  DiffAdd = { fg = palette.inserted, bg = palette.line_highlight },
+  DiffChange = { fg = palette.changed, bg = palette.line_highlight },
+  DiffDelete = { fg = palette.deleted, bg = palette.line_highlight },
+  DiffText = { fg = palette.foreground, bg = palette.deleted },
+
 
   -- indent blank line plugin
   IndentBlanklineChar = { fg = palette.punctuation_dimmer },
