@@ -1,29 +1,29 @@
 local palette = require('indomitable.palette')
 return {
   Normal = { fg = palette.foreground, bg = palette.background },
-  Pmenu = { link = 'Normal' },
+  Pmenu = { fg = palette.foreground }, --, bg = palette.line_highlight },
 
   Foreground = { fg = palette.foreground },
   Identifier = { link = 'Foreground' },
   Type = { link = 'Foreground' },
   Title = { link = 'Foreground' },
   ['@lsp.typemod.type'] = { link = 'Foreground' },
+  NvimInternalError = { link = 'Error' },
+  RedrawDebugClear = { fg = 'Black', bg = 'Yellow' },
+  Search = { fg = palette.line_highlight, bg = palette.constants },
+  IncSearch = { link = 'Search' },
 
   Underlined = { fg = palette.foreground, underline = true },
 
   -- punctuation
   Punctuation = { fg = palette.punctuation },
+  Conceal = { link = 'Punctuation' },
   ['@punctuation'] = { link = 'Punctuation' },
   ['@attribute'] = { link = 'Punctuation' },
   ['@tag.delimiter'] = { link = 'Punctuation' },
   ['xmlTag'] = { link = 'Punctuation' },
   ['xmlProcessingDelim'] = { link = 'Punctuation' },
-  ['@text.title.1.marker.markdown'] = { link = 'Statement' },
-  ['@text.title.2.marker.markdown'] = { link = 'Statement' },
-  ['@text.title.3.marker.markdown'] = { link = 'Statement' },
-  ['@text.title.4.marker.markdown'] = { link = 'Statement' },
-  ['@text.title.5.marker.markdown'] = { link = 'Statement' },
-  ['@text.title.6.marker.markdown'] = { link = 'Statement' },
+  ['@constructor.lua'] = { link = 'Punctuation' },
 
   -- keywords
   Statement = { fg = palette.keywords },
@@ -42,6 +42,12 @@ return {
   ['@text.title.4.markdown'] = { link = 'Statement' },
   ['@text.title.5.markdown'] = { link = 'Statement' },
   ['@text.title.6.markdown'] = { link = 'Statement' },
+  ['@text.title.1.marker.markdown'] = { link = 'Statement' },
+  ['@text.title.2.marker.markdown'] = { link = 'Statement' },
+  ['@text.title.3.marker.markdown'] = { link = 'Statement' },
+  ['@text.title.4.marker.markdown'] = { link = 'Statement' },
+  ['@text.title.5.marker.markdown'] = { link = 'Statement' },
+  ['@text.title.6.marker.markdown'] = { link = 'Statement' },
   ['@lsp.type.keyword'] = { link = 'Statement' },
   ['@lsp.type.operator'] = { link = 'Statement' },
   ['@lsp.type.type.zig'] = { link = 'Statement' },
@@ -55,6 +61,7 @@ return {
   ['@tag.attribute'] = { link = 'Function' },
   ['xmlAttrib'] = { link = 'Function' },
   ['@text.reference.markdown_inline'] = { link = 'Function' },
+  helpHyperTextJump = { link = 'Function' },
 
   -- strings
   String = { fg = palette.strings },
@@ -77,7 +84,8 @@ return {
   ['@string.documentation'] = { link = 'Comment' },
   ['@text.uri.markdown_inline'] = { link = 'Comment' },
   ['@text.reference.markdown'] = { link = 'Comment' },
-  ['@text.todo'] = { fg = palette.foreground, bg = palette.comments, bold = true },
+  Todo = { fg = palette.line_highlight, bg = palette.foreground, bold = true },
+  ['@text.todo'] = { link = 'Todo' },
 
   -- other
   Special = { fg = palette.other },
@@ -87,18 +95,21 @@ return {
   -- editor
   CursorLine = { bg = palette.line_highlight },
   CursorLineNr = { link = 'CursorLine', bold = true },
-  CursorColumn = { link = 'CursorLine' },
-  SignColumn = { link = 'CursorLine' },
-  LineNr = { fg = palette.punctuation_dim, bg = palette.line_highlight },
+  CursorColumn = { bg = palette.punctuation_dimmer },
+  ColorColumn = { bg = palette.punctuation_dimmer },
+  SignColumn = { link = 'Normal' },
+  LineNr = { fg = palette.punctuation_dim },
   Visual = { bg = palette.selection },
   VisualNC = { bg = palette.selection_dim },
+  MatchParen = { fg = palette.line_highlight, bg = palette.inserted, sp = palette.inserted, bold = true, underline = true, reverse = true, standout = true },
+  StatusLine = { fg = 'White', bg = palette.punctuation_dimmer },
 
   -- diagnostics
-  DiagnosticOk = { fg = palette.inserted, bg = palette.line_highlight },
-  DiagnosticHint = { fg = palette.foreground, bg = palette.line_highlight },
-  DiagnosticInfo = { fg = palette.foreground, bg = palette.line_highlight },
-  DiagnosticWarn = { fg = palette.changed, bg = palette.line_highlight },
-  DiagnosticError = { fg = palette.deleted, bg = palette.line_highlight },
+  DiagnosticOk = { fg = palette.inserted },
+  DiagnosticHint = { fg = palette.constants },
+  DiagnosticInfo = { fg = palette.foreground },
+  DiagnosticWarn = { fg = palette.changed }, --, bg = palette.line_highlight },
+  DiagnosticError = { fg = palette.deleted }, --, bg = palette.line_highlight },
   DiagnosticUnnecessary = { fg = palette.foreground, bg = palette.comments },
 
   DiagnosticUnderlineOk =  { bg = palette.inserted, fg = 'Black', bold = true },
@@ -108,11 +119,10 @@ return {
   NonText = { fg = palette.punctuation_dim },
 
   -- sign column status
-  DiffAdd = { fg = palette.inserted, bg = palette.line_highlight },
-  DiffChange = { fg = palette.changed, bg = palette.line_highlight },
-  DiffDelete = { fg = palette.deleted, bg = palette.line_highlight },
-  DiffText = { fg = palette.foreground, bg = palette.deleted },
-
+  DiffAdd = { fg = palette.inserted, },
+  DiffChange = { fg = palette.changed, },
+  DiffDelete = { fg = palette.deleted, },
+  DiffText = { fg = palette.foreground, },
 
   -- indent blank line plugin
   IndentBlanklineChar = { fg = palette.punctuation_dimmer },
