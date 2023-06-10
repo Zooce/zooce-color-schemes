@@ -22,4 +22,8 @@ export class ThingComponent {
     doThat(): number {
         return this.someValue;
     }
+
+    private coolDude(): void {
+        console.log("I'm cool");
+    }
 }

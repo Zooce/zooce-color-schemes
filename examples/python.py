@@ -1,6 +1,7 @@
 import os
 import numpy as np
 
+# TODO: What is going on here?
 MAX = 42
 
 def requires_authorization(name: str):
