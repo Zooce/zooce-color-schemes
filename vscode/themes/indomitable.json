@@ -71,6 +71,8 @@
         "keyword.operator.arrow.skinny.rust",
         "keyword.operator.key-value.rust",
         "keyword.operator.namespace.rust",
+        "punctuation.brackets.angle.rust",
+        "entity.name.type.lifetime.rust",
         "meta.brace.square.ts",
         "meta.brace.round.ts"
       ],
@@ -148,6 +150,7 @@
         "constant.other.caps.python",
         "constant.other.caps.rust",
         "variable.scss",
+        "constant.other.datetime-with-timezone.toml",
         "support.function.builtin.zig"
       ],
       "settings": {

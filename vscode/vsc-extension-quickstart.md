@@ -37,7 +37,11 @@ To learn more about scopes and how they're used, check out the [color theme](htt
 
 ## Publish
 
+See: https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
 ```
+$ git add . && git push origin
+$ npm install -g @vscode/vsce
 $ vsce publish <major|minor|patch>
 ```
 

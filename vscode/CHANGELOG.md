@@ -3,6 +3,11 @@ All notable changes to the "zooce" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.3]
+### Changed
+- Rust angle punctuation brackets
+- TOML date strings
+
 ## [2.0.2]
 ### Changed
 - Fix variable colors in template strings for TypeScript
