@@ -28,3 +28,6 @@ hello world
 
 1. one thing (yeah!)
 2. two thing `i can write code`, and `more` wipee!
+
+- [ ] unchecked
+- [x] checked

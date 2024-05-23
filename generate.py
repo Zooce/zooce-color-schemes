@@ -3,39 +3,6 @@ import json
 import os.path
 import toml
 
-VIMSTART = '''
-hi clear
-set background=dark
-if exists("syntax_on")
-    syntax reset
-endif
-set termguicolors
-'''
-
-
-def gen_vim(palette, vim):
-    color_theme = [
-        VIMSTART,
-        f"let g:colors_name='{vim['colors_name']}'",
-        f"hi Normal guibg={palette['editor']['background']}",
-    ] + [
-        f"hi {hl_group} guifg={palette['tokens'][color]} guibg=NONE gui=NONE"
-        for color, hl_groups in vim["groups"].items()
-        for hl_group in hl_groups
-    ] + [
-        f"hi! link {source} {destination}"
-        for destination, sources in vim["links"].items()
-        for source in sources
-    ]
-    try:
-        path = os.path.normpath(vim["file"])
-        print(f"saving {path}...")
-        with open(path, "w") as f:
-            f.writelines("\n".join(color_theme))
-    except KeyError:
-        print("\n[[=== Vim ===]]")
-        print("\n".join(color_theme))
-
 
 def gen_vscode(palette, vscode):
     print("generating VS Code theme...")
@@ -121,9 +88,6 @@ if __name__ == "__main__":
     # I always want a JSON file that matches my TOML file so I can load it into Chromaplay when I need to.
     save_chromaplay(palette, f"{args.theme_dir}/chromaplay.json")
 
-    if os.path.exists(f"{args.theme_dir}/vim.toml"):
-        vim = load_toml(f"{args.theme_dir}/vim.toml")
-        gen_vim(palette, vim)
     if os.path.exists(f"{args.theme_dir}/vscode.toml"):
         vscode = load_toml(f"{args.theme_dir}/vscode.toml")
         gen_vscode(palette, vscode)

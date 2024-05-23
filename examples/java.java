@@ -13,6 +13,7 @@ import static java.io.File.*;
 @Awesome("yeah baby!")
 public class Foo<T extends List> extends Bar<T> implements SomeInterface {
 
+  // TODO:
   private static final int COUNT = 0x243;
   private int myCount = 0;
 

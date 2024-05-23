@@ -108,10 +108,13 @@ punctuation = [
     "keyword.operator.arrow.skinny.rust",
     "keyword.operator.key-value.rust",
     "keyword.operator.namespace.rust",
+    "punctuation.brackets.angle.rust",
+    "entity.name.type.lifetime.rust",
 
     # typescript
     "meta.brace.square.ts",
     "meta.brace.round.ts",
+    "keyword.operator.type.annotation.ts",
 ]
 keywords = [
     "entity.name.section",
@@ -131,7 +134,6 @@ keywords = [
     "entity.name.type.option.rust",
     "entity.name.type.primitive.rust",
     "entity.name.type.result.rust",
-    "punctuation.brackets.angle.rust",
 
     # toml
     "entity.other.attribute-name.table.toml",
@@ -184,7 +186,6 @@ constants = [
 
     # rust
     "entity.name.function.macro.rust",
-    "entity.name.type.lifetime.rust",
     "variable.language.self.rust",
 
     # typescript
@@ -199,6 +200,9 @@ other = [
 
     # scss
     "variable.scss",
+
+    # toml
+    "constant.other.datetime-with-timezone.toml",
 
     # zig
     "support.function.builtin.zig",

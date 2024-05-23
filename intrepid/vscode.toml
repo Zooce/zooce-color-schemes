@@ -187,6 +187,12 @@ constants = [
 
     # typescript
     "variable.language.this.ts",
+
+    # xml
+    "punctuation.definition.constant.xml",
+
+    # zig
+    "keyword.constant.bool.zig",
 ]
 other = [
     # python
@@ -197,6 +203,9 @@ other = [
 
     # scss
     "variable.scss",
+
+    # toml
+    "constant.other.datetime-with-timezone.toml",
 
     # zig
     "support.function.builtin.zig",

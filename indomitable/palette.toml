@@ -1,3 +1,5 @@
+name = "indomitable"
+
 [editor]
 foreground = "#e6e6e6"
 background = "#212121"

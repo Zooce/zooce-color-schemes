@@ -26,6 +26,11 @@ class Point {
     const dx = a.x - b.x;
     const dy = a.y - b.y;
 
+    let that = 2;
+    if (a.x > 5) {
+      that = 7;
+    }
+
     return Math.hypot(dx, dy);
   }
 }
