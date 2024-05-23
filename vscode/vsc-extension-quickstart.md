@@ -44,7 +44,7 @@ See: https://code.visualstudio.com/api/working-with-extensions/publishing-extens
 ### Step 2 - Commit and push changes
 
 ```
-$ git add .
+$ git add vscode/*
 $ git commit -m "vscode: publish [version]"
 $ git push origin
 ```
@@ -52,7 +52,7 @@ $ git push origin
 ### Step 3 - Publish
 
 ```
-$ npx @vscode/vsce publish <major|minor|patch>
+$ (cd vscode && npx @vscode/vsce publish <major|minor|patch>)
 ```
 
 ## Access Token
