@@ -74,7 +74,8 @@
         "punctuation.brackets.angle.rust",
         "entity.name.type.lifetime.rust",
         "meta.brace.square.ts",
-        "meta.brace.round.ts"
+        "meta.brace.round.ts",
+        "keyword.operator.type.annotation.ts"
       ],
       "settings": {
         "foreground": "#999999"
@@ -93,7 +94,6 @@
         "entity.name.type.option.rust",
         "entity.name.type.primitive.rust",
         "entity.name.type.result.rust",
-        "punctuation.brackets.angle.rust",
         "entity.other.attribute-name.table.toml",
         "support.type.primitive.ts"
       ],
@@ -137,7 +137,6 @@
         "variable.language.special.self.python",
         "variable.parameter.function.language.special.self.python",
         "entity.name.function.macro.rust",
-        "entity.name.type.lifetime.rust",
         "variable.language.self.rust",
         "variable.language.this.ts"
       ],

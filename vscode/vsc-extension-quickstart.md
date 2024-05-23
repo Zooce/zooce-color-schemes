@@ -39,10 +39,20 @@ To learn more about scopes and how they're used, check out the [color theme](htt
 
 See: https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
+### Step 1 - Update CHANGELOG.md
+
+### Step 2 - Commit and push changes
+
 ```
-$ git add . && git push origin
-$ npm install -g @vscode/vsce
-$ vsce publish <major|minor|patch>
+$ git add .
+$ git commit -m "vscode: publish [version]"
+$ git push origin
+```
+
+### Step 3 - Publish
+
+```
+$ npx @vscode/vsce publish <major|minor|patch>
 ```
 
 ## Access Token
