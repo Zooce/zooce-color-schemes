@@ -192,6 +192,9 @@ constants = [
     "variable.language.this.ts",
 ]
 other = [
+    # angular
+    "keyword.control.block.kind.ng",
+
     # python
     "constant.other.caps.python",
 

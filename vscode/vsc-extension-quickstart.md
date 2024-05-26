@@ -57,4 +57,6 @@ $ (cd vscode && npx @vscode/vsce publish <major|minor|patch>)
 
 ## Access Token
 
+> WARNING: This process is a pain in the ass!!
+
 Follow instructions here: https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token
