@@ -146,6 +146,7 @@
     },
     {
       "scope": [
+        "keyword.control.block.kind.ng",
         "constant.other.caps.python",
         "constant.other.caps.rust",
         "variable.scss",
